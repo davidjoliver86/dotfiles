@@ -1,0 +1,3 @@
+PROMPT_COMMAND=prompt
+
+set -o vi
