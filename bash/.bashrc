@@ -102,8 +102,8 @@ alias alert='notify-send --urgency=low -i "$([ $? = 0 ] && echo terminal || echo
 # See /usr/share/doc/bash-doc/examples in the bash-doc package.
 
 for f in bash local; do
-  if [ -f ~/.$f_aliases ]; then
-      . ~/.$f_aliases
+  if [ -f ~/.${f}_aliases ]; then
+      . ~/.${f}_aliases
   fi
 done
 
