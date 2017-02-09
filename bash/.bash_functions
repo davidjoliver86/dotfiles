@@ -10,8 +10,15 @@ function virtualenv_info(){
     [[ -n "$venv" ]] && echo " (venv:$venv) "
 }
 
+if [ $TERMINIX_ID ] || [ $VTE_VERSION ]; then
+    source /etc/profile.d/vte-2.91.sh
+    VTE_PWD="$(__vte_osc7)"
+else
+    VTE_PWD=""
+fi
+
 function prompt {
     PROMPT=' > '
-    PS1="\[\e]0;${debian_chroot:+($debian_chroot)}\u@\h: \w\a\]$PROMPT"
+    PS1="\[\e]0;${debian_chroot:+($debian_chroot)}\u@\h: \w\a\]$PROMPT$VTE_PWD"
     echo -e "\e[96m$(date +%R)\e[0m [ \e[94m$PWD\e[0m ]$(__git_ps1)$(virtualenv_info)"
 }
