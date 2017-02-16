@@ -126,4 +126,4 @@ if [ -f ~/.bash_settings ]; then
     . ~/.bash_settings
 fi
 
-set -o vi
+export EDITOR=vim
