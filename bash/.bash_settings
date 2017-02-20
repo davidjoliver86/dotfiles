@@ -1,4 +1,1 @@
-export VIRTUAL_ENV_DISABLE_PROMPT=1
-PROMPT_COMMAND=prompt
-
 set -o vi

@@ -56,8 +56,22 @@ if [ -n "$force_color_prompt" ]; then
     fi
 fi
 
+function virtualenv_info(){
+    # Get Virtual Env
+    if [[ -n "$VIRTUAL_ENV" ]]; then
+        # Strip out the path and just leave the env name
+        venv="${VIRTUAL_ENV##*/}"
+    else
+        # In case you don't have one activated
+        venv=''
+    fi
+    [[ -n "$venv" ]] && echo " (venv:$venv)"
+}
+
+export VIRTUAL_ENV_DISABLE_PROMPT=1
+
 if [ "$color_prompt" = yes ]; then
-    PS1='${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ '
+    PS1='${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\[\033[00m\] [ \[\033[01;34m\]\w\[\033[00m\] ]$(__git_ps1)$(virtualenv_info) \$ '
 else
     PS1='${debian_chroot:+($debian_chroot)}\u@\h:\w\$ '
 fi
@@ -101,11 +115,9 @@ alias alert='notify-send --urgency=low -i "$([ $? = 0 ] && echo terminal || echo
 # ~/.bash_aliases, instead of adding them here directly.
 # See /usr/share/doc/bash-doc/examples in the bash-doc package.
 
-for f in bash local; do
-  if [ -f ~/.${f}_aliases ]; then
-      . ~/.${f}_aliases
-  fi
-done
+if [ -f ~/.bash_aliases ]; then
+    . ~/.bash_aliases
+fi
 
 # enable programmable completion features (you don't need to enable
 # this, if it's already enabled in /etc/bash.bashrc and /etc/profile
@@ -118,12 +130,6 @@ if ! shopt -oq posix; then
   fi
 fi
 
-if [ -f ~/.bash_functions ]; then
-    . ~/.bash_functions
+if [ -z ~/.bash_settings ]; then
+  . ~/.bash_settings
 fi
-
-if [ -f ~/.bash_settings ]; then
-    . ~/.bash_settings
-fi
-
-export EDITOR=vim
