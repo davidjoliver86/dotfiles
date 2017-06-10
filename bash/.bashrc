@@ -56,22 +56,18 @@ if [ -n "$force_color_prompt" ]; then
     fi
 fi
 
-function virtualenv_info(){
-    # Get Virtual Env
-    if [[ -n "$VIRTUAL_ENV" ]]; then
-        # Strip out the path and just leave the env name
-        venv="${VIRTUAL_ENV##*/}"
-    else
-        # In case you don't have one activated
-        venv=''
+# pyenv-compatible virtualenv prompt
+
+function pyenv_info(){
+    if [[ -n "$PYENV_VERSION" ]]; then
+	echo " ($PYENV_VERSION)"
     fi
-    [[ -n "$venv" ]] && echo " (venv:$venv)"
 }
 
 export VIRTUAL_ENV_DISABLE_PROMPT=1
 
 if [ "$color_prompt" = yes ]; then
-    PS1='${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\[\033[00m\] [ \[\033[01;34m\]\w\[\033[00m\] ]$(__git_ps1)$(virtualenv_info) \$ '
+    PS1='${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\[\033[00m\] [ \[\033[01;34m\]\w\[\033[00m\] ]$(__git_ps1)$(pyenv_info) \$ '
 else
     PS1='${debian_chroot:+($debian_chroot)}\u@\h:\w\$ '
 fi
@@ -139,4 +135,11 @@ export EDITOR=vim
 
 if [ -f /etc/profile.d/vte-2.91.sh ]; then
     . /etc/profile.d/vte-2.91.sh
+fi
+
+# pyenv
+if [ -d ~/.pyenv ]; then
+    export PATH="~/.pyenv/bin:$PATH"
+    eval "$(pyenv init -)"
+    eval "$(pyenv virtualenv-init -)"
 fi
