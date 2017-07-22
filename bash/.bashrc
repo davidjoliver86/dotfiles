@@ -60,14 +60,14 @@ fi
 
 function pyenv_info(){
     if [[ -n "$PYENV_VERSION" ]]; then
-	echo " ($PYENV_VERSION)"
+	echo " (py:$PYENV_VERSION)"
     fi
 }
 
 export VIRTUAL_ENV_DISABLE_PROMPT=1
 
 if [ "$color_prompt" = yes ]; then
-    PS1='${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\[\033[00m\] [ \[\033[01;34m\]\w\[\033[00m\] ]$(__git_ps1)$(pyenv_info) \$ '
+    PS1='${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\[\033[00m\] \[\033[01;34m\]\w\[\033[00m\]$(__git_ps1)$(pyenv_info) \$ '
 else
     PS1='${debian_chroot:+($debian_chroot)}\u@\h:\w\$ '
 fi
