@@ -1,13 +1,52 @@
+[kaccess][Global Shortcuts]
+Toggle Screen Reader On and Off=Meta+Alt+S
+
+[kcm_touchpad][Global Shortcuts]
+Decrease Keyboard Brightness=Keyboard Brightness Down
+Decrease Screen Brightness=Monitor Brightness Down
+Disable Touchpad=Touchpad Off
+Enable Touchpad=Touchpad On
+Hibernate=Hibernate
+Increase Keyboard Brightness=Keyboard Brightness Up
+Increase Screen Brightness=Monitor Brightness Up
+PowerOff=Power Off
+Show System Activity=Ctrl+Esc
+Sleep=Sleep
+Switch to Next Keyboard Layout=Ctrl+Alt+K
+Toggle Keyboard Backlight=Keyboard Light On/Off
+Toggle Touchpad=Touchpad Toggle
+display=Display; Meta+P
+{0744797b-4af4-4c57-9706-82996caa068b}=Print
+{0e022f2e-3933-41e3-ad24-463f353fe403}=Meta+Shift+Print
+{9edeee9a-8ad7-4e1f-afec-8ff90ba474fb}=Meta+Print
+{cefede32-3ef6-480c-b69a-7bd071931ddd}=Shift+Print
+{d03619b6-9b3c-48cc-9d9c-a2aadb485550}=Search
+
+[kmix][Global Shortcuts]
+decrease_microphone_volume=Microphone Volume Down
+decrease_volume=Volume Down
+increase_microphone_volume=Microphone Volume Up
+increase_volume=Volume Up
+mic_mute=Microphone Mute
+mute=Volume Mute
+
 [krunner][Global Shortcuts]
 run command=Meta+Space; Alt+F2
-run command on clipboard contents=Meta+Alt+Space
+run command on clipboard contents=Meta+Alt+Space; Alt+Shift+F2
+
+[ksmserver][Global Shortcuts]
+Halt Without Confirmation=Ctrl+Alt+Shift+PgDown
+Lock Session=Ctrl+Alt+L; Screensaver
+Log Out=Ctrl+Alt+Del
+Log Out Without Confirmation=Ctrl+Alt+Shift+Del
+Reboot Without Confirmation=Ctrl+Alt+Shift+PgUp
 
 [kwin][Global Shortcuts]
 Activate Window Demanding Attention=Ctrl+Alt+A
 Decrease Opacity=none
 Expose=Meta+W
 ExposeAll=Meta+Shift+W; Launch (C)
-ExposeClass=Meta+Ctrl+W
+ExposeClass=Meta+`
 Increase Opacity=none
 Invert Screen Colors=none
 Kill Window=Ctrl+Alt+Esc
@@ -19,13 +58,13 @@ MoveZoomRight=none
 MoveZoomUp=none
 Remove Window From Group=none
 Setup Window Shortcut=none
-Show Desktop=Meta+Ctrl+D
+Show Desktop=Meta+Shift+D
 ShowDesktopGrid=Meta+D
 Suspend Compositing=Alt+Shift+F12
 Switch One Desktop Down=none
 Switch One Desktop Up=none
-Switch One Desktop to the Left=Meta+Shift+Left
-Switch One Desktop to the Right=Meta+Shift+Right
+Switch One Desktop to the Left=none
+Switch One Desktop to the Right=none
 Switch Window Down=Meta+Alt+Down
 Switch Window Left=Meta+Alt+Left
 Switch Window Right=Meta+Alt+Right
@@ -84,7 +123,7 @@ Window Fullscreen=none
 Window Grow Horizontal=none
 Window Grow Vertical=none
 Window Lower=none
-Window Maximize=none
+Window Maximize=Meta+Up
 Window Maximize Horizontal=none
 Window Maximize Vertical=none
 Window Minimize=none
@@ -100,12 +139,12 @@ Window Pack Down=none
 Window Pack Left=none
 Window Pack Right=none
 Window Pack Up=none
-Window Quick Tile Bottom=Meta+Down
+Window Quick Tile Bottom=none
 Window Quick Tile Bottom Left=none
 Window Quick Tile Bottom Right=none
 Window Quick Tile Left=Meta+Left
 Window Quick Tile Right=Meta+Right
-Window Quick Tile Top=Meta+Up
+Window Quick Tile Top=none
 Window Quick Tile Top Left=none
 Window Quick Tile Top Right=none
 Window Raise=none
@@ -160,6 +199,7 @@ activate task manager entry 6=Meta+6
 activate task manager entry 7=Meta+7
 activate task manager entry 8=Meta+8
 activate task manager entry 9=Meta+9
+activate widget 19=none
 activate widget 3=Alt+F1
 clear-history=none
 clipboard_action=Ctrl+Alt+X
