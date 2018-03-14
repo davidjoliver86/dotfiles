@@ -1,26 +1,20 @@
 [kaccess][Global Shortcuts]
-Toggle Screen Reader On and Off=Meta+Alt+S
+Toggle Screen Reader On and Off=none
 
 [kcm_touchpad][Global Shortcuts]
-Decrease Keyboard Brightness=Keyboard Brightness Down
-Decrease Screen Brightness=Monitor Brightness Down
 Disable Touchpad=Touchpad Off
 Enable Touchpad=Touchpad On
-Hibernate=Hibernate
-Increase Keyboard Brightness=Keyboard Brightness Up
-Increase Screen Brightness=Monitor Brightness Up
-PowerOff=Power Off
-Show System Activity=Ctrl+Esc
-Sleep=Sleep
-Switch to Next Keyboard Layout=Ctrl+Alt+K
-Toggle Keyboard Backlight=Keyboard Light On/Off
+Switch to Next Keyboard Layout=none
 Toggle Touchpad=Touchpad Toggle
-display=Display; Meta+P
-{0744797b-4af4-4c57-9706-82996caa068b}=Print
-{0e022f2e-3933-41e3-ad24-463f353fe403}=Meta+Shift+Print
-{9edeee9a-8ad7-4e1f-afec-8ff90ba474fb}=Meta+Print
-{cefede32-3ef6-480c-b69a-7bd071931ddd}=Shift+Print
+{a82b4788-0f0c-4fa6-8293-355bb63cb987}=none
+{aea17018-3451-4c5a-9021-837389d6747f}=none
+{c25b9096-eba4-4f11-b64b-6852bda33875}=none
 {d03619b6-9b3c-48cc-9d9c-a2aadb485550}=Search
+{e5b23dbb-973e-4fce-a90f-eed4041aede0}=none
+
+[kded5][Global Shortcuts]
+Show System Activity=Ctrl+Esc
+display=Display; Meta+P
 
 [kmix][Global Shortcuts]
 decrease_microphone_volume=Microphone Volume Down
@@ -188,6 +182,16 @@ view_actual_size=none
 view_zoom_in=Meta+=
 view_zoom_out=Meta+-
 
+[org_kde_powerdevil][Global Shortcuts]
+Decrease Keyboard Brightness=Keyboard Brightness Down
+Decrease Screen Brightness=Monitor Brightness Down
+Hibernate=Hibernate
+Increase Keyboard Brightness=Keyboard Brightness Up
+Increase Screen Brightness=Monitor Brightness Up
+PowerOff=Power Off
+Sleep=Sleep
+Toggle Keyboard Backlight=Keyboard Light On/Off
+
 [plasmashell][Global Shortcuts]
 activate task manager entry 1=Meta+1
 activate task manager entry 10=Meta+0
@@ -200,7 +204,7 @@ activate task manager entry 7=Meta+7
 activate task manager entry 8=Meta+8
 activate task manager entry 9=Meta+9
 activate widget 19=none
-activate widget 3=Alt+F1
+activate widget 21=Alt+F1
 clear-history=none
 clipboard_action=Ctrl+Alt+X
 cycleNextAction=none
