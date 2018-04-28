@@ -1,20 +1,18 @@
-[KDE Keyboard Layout Switcher][Global Shortcuts]
-Disable Touchpad=Touchpad Off
-Enable Touchpad=Touchpad On
-Switch to Next Keyboard Layout=Ctrl+Alt+K
-Toggle Touchpad=Touchpad Toggle
-{564a308e-2fb7-4217-bd70-7477759a8d94}=Shift+Print
-{9c10c9ab-8fc3-4ba1-ae86-2fddf1f3da46}=Meta+Shift+Print
-{d03619b6-9b3c-48cc-9d9c-a2aadb485550}=Search
-{eb63a8c7-33c2-4ab9-a627-d4d9e50fcbd8}=Meta+Print
-{fee2d816-82a6-45c0-ab82-64f319563cee}=Print
-
 [kaccess][Global Shortcuts]
 Toggle Screen Reader On and Off=Meta+Alt+S
 
 [kded5][Global Shortcuts]
+Disable Touchpad=Touchpad Off
+Enable Touchpad=Touchpad On
 Show System Activity=Ctrl+Esc
+Switch to Next Keyboard Layout=Ctrl+Alt+K
+Toggle Touchpad=Touchpad Toggle
 display=Display; Meta+P
+{7a7ec858-288c-4a39-b26f-b500845e5a48}=Meta+Print
+{8229d5a6-9b89-4ad2-badc-65ddbea1da0e}=Meta+Shift+Print
+{beea7f4b-18cd-43b4-99ff-10471c2e5431}=Shift+Print
+{d03619b6-9b3c-48cc-9d9c-a2aadb485550}=none
+{eb7c8909-64d9-479c-a587-ef3f5c38f973}=Print
 
 [kmix][Global Shortcuts]
 decrease_microphone_volume=Microphone Volume Down
@@ -25,7 +23,7 @@ mic_mute=Microphone Mute
 mute=Volume Mute
 
 [krunner][Global Shortcuts]
-run command=Meta+Space
+run command=Meta+Space; Alt+F2; Search
 run command on clipboard contents=Meta+Alt+Space
 
 [ksmserver][Global Shortcuts]
@@ -40,19 +38,19 @@ Activate Window Demanding Attention=Ctrl+Alt+A
 Decrease Opacity=none
 Expose=Meta+W
 ExposeAll=Meta+Shift+W; Launch (C)
-ExposeClass=Meta+Alt+W
+ExposeClass=Meta+Ctrl+W
 Increase Opacity=none
 Invert Screen Colors=none
 Kill Window=Ctrl+Alt+Esc
 MoveMouseToCenter=Meta+F6
 MoveMouseToFocus=Meta+F5
-MoveZoomDown=none
-MoveZoomLeft=none
-MoveZoomRight=none
-MoveZoomUp=none
+MoveZoomDown=Meta+Ctrl+Down
+MoveZoomLeft=Meta+Ctrl+Left
+MoveZoomRight=Meta+Ctrl+Right
+MoveZoomUp=Meta+Ctrl+Up
 Remove Window From Group=none
 Setup Window Shortcut=none
-Show Desktop=none
+Show Desktop=Meta+Shift+D
 ShowDesktopGrid=Meta+D
 Suspend Compositing=Alt+Shift+F12
 Switch One Desktop Down=none
@@ -120,7 +118,7 @@ Window Lower=none
 Window Maximize=Meta+Up
 Window Maximize Horizontal=none
 Window Maximize Vertical=none
-Window Minimize=none
+Window Minimize=Meta+Down
 Window Move=none
 Window No Border=none
 Window On All Desktops=none
@@ -203,7 +201,7 @@ activate task manager entry 6=Meta+6
 activate task manager entry 7=Meta+7
 activate task manager entry 8=Meta+8
 activate task manager entry 9=Meta+9
-activate widget 19=none
+activate widget 21=none
 activate widget 3=Alt+F1
 clear-history=none
 clipboard_action=Ctrl+Alt+X
@@ -214,7 +212,7 @@ manage activities=Meta+Q
 next activity=Meta+Tab
 previous activity=Meta+Shift+Tab
 repeat_action=Ctrl+Alt+R
-show dashboard=Meta+Ctrl+D
+show dashboard=Ctrl+F12
 show-barcode=none
 show-on-mouse-pos=none
-stop current activity=none
+stop current activity=Meta+S
