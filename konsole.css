@@ -1,0 +1,5 @@
+QTabBar,
+QTabBar::tab
+{
+    height: 36px;
+}
