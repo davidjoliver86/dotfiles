@@ -1,18 +1,18 @@
 [kaccess][Global Shortcuts]
 Toggle Screen Reader On and Off=Meta+Alt+S
 
-[kded5][Global Shortcuts]
+[khotkeys][Global Shortcuts]
 Disable Touchpad=Touchpad Off
 Enable Touchpad=Touchpad On
 Show System Activity=Ctrl+Esc
 Switch to Next Keyboard Layout=Ctrl+Alt+K
 Toggle Touchpad=Touchpad Toggle
 display=Display; Meta+P
-{15e1f285-3b9e-4759-ac40-909ac5969860}=none
-{1886a4df-077e-4125-bb88-32a4fd623940}=none
-{4398b90c-c767-4eec-b36e-14255e15683e}=none
+{34b0345a-64ae-4153-bf46-3340b7da0491}=Meta+Shift+Print
+{a4cd5ad0-1965-4d00-baf1-1df955431fcb}=Shift+Print
+{ba202807-b1c9-46e9-ac63-1fa25b393d58}=Print
 {d03619b6-9b3c-48cc-9d9c-a2aadb485550}=none
-{fe6e84eb-797c-4513-a9cd-9f354f1c2bae}=none
+{f9fecff8-ce76-4ff9-97fb-87c4209cb9fa}=Meta+Print
 
 [kmix][Global Shortcuts]
 decrease_microphone_volume=Microphone Volume Down
@@ -201,8 +201,8 @@ activate task manager entry 6=Meta+6
 activate task manager entry 7=Meta+7
 activate task manager entry 8=Meta+8
 activate task manager entry 9=Meta+9
-activate widget 23=Alt+F1
-activate widget 40=none
+activate widget 21=none
+activate widget 3=Alt+F1
 clear-history=none
 clipboard_action=Ctrl+Alt+X
 cycleNextAction=none
