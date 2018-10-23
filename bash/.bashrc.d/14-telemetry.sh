@@ -1,0 +1,1 @@
+export MSSQL_CLI_TELEMETRY_OPTOUT=True
