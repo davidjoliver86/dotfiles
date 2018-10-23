@@ -1,18 +1,18 @@
 [kaccess][Global Shortcuts]
 Toggle Screen Reader On and Off=Meta+Alt+S
 
-[khotkeys][Global Shortcuts]
+[kded5][Global Shortcuts]
 Disable Touchpad=Touchpad Off
 Enable Touchpad=Touchpad On
 Show System Activity=Ctrl+Esc
 Switch to Next Keyboard Layout=Ctrl+Alt+K
 Toggle Touchpad=Touchpad Toggle
 display=Display; Meta+P
-{34b0345a-64ae-4153-bf46-3340b7da0491}=Meta+Shift+Print
-{a4cd5ad0-1965-4d00-baf1-1df955431fcb}=Shift+Print
-{ba202807-b1c9-46e9-ac63-1fa25b393d58}=Print
+{3668fe7f-9659-480b-aace-54153d0e28e4}=Shift+Print
+{75fce271-2404-4230-9914-d7e17ccb9973}=Meta+Print
 {d03619b6-9b3c-48cc-9d9c-a2aadb485550}=none
-{f9fecff8-ce76-4ff9-97fb-87c4209cb9fa}=Meta+Print
+{ea66250b-71e2-4cd1-b9bb-13be709883d4}=Print
+{eddd8538-a79f-464b-b3c6-31fd8f932df7}=Meta+Shift+Print
 
 [kmix][Global Shortcuts]
 decrease_microphone_volume=Microphone Volume Down
@@ -24,7 +24,7 @@ mute=Volume Mute
 
 [krunner][Global Shortcuts]
 run command=Meta+Space; Alt+F2; Search
-run command on clipboard contents=Meta+Alt+Space
+run command on clipboard contents=Alt+Space
 
 [ksmserver][Global Shortcuts]
 Halt Without Confirmation=Ctrl+Alt+Shift+PgDown
@@ -44,10 +44,10 @@ Invert Screen Colors=none
 Kill Window=Ctrl+Alt+Esc
 MoveMouseToCenter=Meta+F6
 MoveMouseToFocus=Meta+F5
-MoveZoomDown=Meta+Ctrl+Down
-MoveZoomLeft=Meta+Ctrl+Left
-MoveZoomRight=Meta+Ctrl+Right
-MoveZoomUp=Meta+Ctrl+Up
+MoveZoomDown=none
+MoveZoomLeft=none
+MoveZoomRight=none
+MoveZoomUp=none
 Remove Window From Group=none
 Setup Window Shortcut=none
 Show Desktop=Meta+Shift+D
@@ -201,7 +201,6 @@ activate task manager entry 6=Meta+6
 activate task manager entry 7=Meta+7
 activate task manager entry 8=Meta+8
 activate task manager entry 9=Meta+9
-activate widget 21=none
 activate widget 3=Alt+F1
 clear-history=none
 clipboard_action=Ctrl+Alt+X
@@ -212,7 +211,7 @@ manage activities=Meta+Q
 next activity=Meta+Tab
 previous activity=Meta+Shift+Tab
 repeat_action=Ctrl+Alt+R
-show dashboard=none
+show dashboard=Ctrl+F12
 show-barcode=none
 show-on-mouse-pos=none
 stop current activity=none
