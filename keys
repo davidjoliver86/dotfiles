@@ -1,41 +1,61 @@
 [ActivityManager][Global Shortcuts]
-switch-to-activity-9eb96f14-c505-442b-99d5-7c2176cfc280=none
+switch-to-activity-c126576f-bf39-4c0a-971d-d3a514162c76=none
 
 [kaccess][Global Shortcuts]
 Toggle Screen Reader On and Off=none
 
-[kded5][Global Shortcuts]
+[kcm_touchpad][Global Shortcuts]
 Disable Touchpad=Touchpad Off
 Enable Touchpad=Touchpad On
 Show System Activity=Ctrl+Esc
-Switch to Next Keyboard Layout=none
+Switch to Next Keyboard Layout=Ctrl+Alt+K
 Toggle Touchpad=Touchpad Toggle
 display=Display; Meta+P
+{2dd6a53d-515f-4f30-8b7a-5ebbc394e167}=Meta+Shift+Print
+{449a2672-8650-4937-b038-d4d1bb12c785}=Shift+Print
+{b382ee6c-fdeb-4bf5-b205-02cc42c3d722}=Meta+Print
+{d03619b6-9b3c-48cc-9d9c-a2aadb485550}=none
+{ebbe4ec8-4288-4521-91b1-4468faeb3fed}=Ctrl+Alt+T
+{f2b9e904-f8b5-47e6-835d-9f3e5001f12c}=Print
 
-[khotkeys][Global Shortcuts]
-Activate Window Demanding Attention=none
+[kmix][Global Shortcuts]
+decrease_microphone_volume=Microphone Volume Down
+decrease_volume=Volume Down
+increase_microphone_volume=Microphone Volume Up
+increase_volume=Volume Up
+mic_mute=Microphone Mute
+mute=Volume Mute
+
+[krunner][Global Shortcuts]
+run command=Meta+Space; Alt+F2; Search
+run command on clipboard contents=Meta+Alt+Space
+
+[ksmserver][Global Shortcuts]
+Halt Without Confirmation=Ctrl+Alt+Shift+PgDown
+Lock Session=Ctrl+Alt+L; Screensaver
+Log Out=Ctrl+Alt+Del
+Log Out Without Confirmation=Ctrl+Alt+Shift+Del
+Reboot Without Confirmation=Ctrl+Alt+Shift+PgUp
+
+[kwin][Global Shortcuts]
+Activate Window Demanding Attention=Ctrl+Alt+A
 Decrease Opacity=none
-Expose=Meta+Shift+W
-ExposeAll=Meta+W; Launch (C)
-ExposeClass=Meta+Ctrl+W
-Halt Without Confirmation=none
+Expose=Meta+W
+ExposeAll=Meta+Shift+W; Launch (C)
+ExposeClass=Meta+Alt+W
 Increase Opacity=none
 Invert Screen Colors=none
 Kill Window=Ctrl+Alt+Esc
-Lock Session=Ctrl+Alt+L; Screensaver
-Log Out=none
-Log Out Without Confirmation=none
-MoveMouseToCenter=none
-MoveMouseToFocus=none
+MoveMouseToCenter=Meta+F6
+MoveMouseToFocus=Meta+F5
 MoveZoomDown=none
 MoveZoomLeft=none
 MoveZoomRight=none
 MoveZoomUp=none
-Reboot Without Confirmation=none
 Remove Window From Group=none
 Setup Window Shortcut=none
-Show Desktop=Meta+Shift+D
-ShowDesktopGrid=Meta+D
+Show Desktop=none
+ShowDesktopGrid=Ctrl+F8
 Suspend Compositing=Alt+Shift+F12
 Switch One Desktop Down=none
 Switch One Desktop Up=none
@@ -84,12 +104,12 @@ Walk Through Desktops=none
 Walk Through Desktops (Reverse)=none
 Walk Through Window Tabs=none
 Walk Through Window Tabs (Reverse)=none
-Walk Through Windows=none
-Walk Through Windows (Reverse)=none
+Walk Through Windows=Alt+Tab
+Walk Through Windows (Reverse)=Alt+Shift+Backtab
 Walk Through Windows Alternative=none
 Walk Through Windows Alternative (Reverse)=none
-Walk Through Windows of Current Application=none
-Walk Through Windows of Current Application (Reverse)=none
+Walk Through Windows of Current Application=Alt+`
+Walk Through Windows of Current Application (Reverse)=Alt+~
 Walk Through Windows of Current Application Alternative=none
 Walk Through Windows of Current Application Alternative (Reverse)=none
 Window Above Other Windows=none
@@ -163,32 +183,6 @@ Window to Screen 7=none
 view_actual_size=none
 view_zoom_in=Meta+=
 view_zoom_out=Meta+-
-{2153b4e5-db23-4293-876f-20678d6abb89}=none
-{a21401ca-9106-4e30-b8b3-c9e44dcb008b}=none
-{ad6b390b-882f-47bf-a934-13825e177a5f}=none
-{d03619b6-9b3c-48cc-9d9c-a2aadb485550}=none
-{e997f61b-103f-4223-a576-3cda16f0d148}=none
-{fd93894f-9e85-4606-b5ee-ade858e74c78}=none
-
-[kmix][Global Shortcuts]
-decrease_microphone_volume=Microphone Volume Down
-decrease_volume=Volume Down
-increase_microphone_volume=Microphone Volume Up
-increase_volume=Volume Up
-mic_mute=Microphone Mute
-mute=Volume Mute
-
-[krunner][Global Shortcuts]
-run command=Meta+Space; ; Search
-run command on clipboard contents=Meta+Shift+Space
-
-[mediacontrol][Global Shortcuts]
-mediavolumedown=none
-mediavolumeup=none
-nextmedia=Media Next
-playpausemedia=Media Play
-previousmedia=Media Previous
-stopmedia=Media Stop
 
 [org_kde_powerdevil][Global Shortcuts]
 Decrease Keyboard Brightness=Keyboard Brightness Down
@@ -211,7 +205,6 @@ activate task manager entry 6=Meta+6
 activate task manager entry 7=Meta+7
 activate task manager entry 8=Meta+8
 activate task manager entry 9=Meta+9
-activate widget 22=none
 activate widget 3=Alt+F1
 clear-history=none
 clipboard_action=Ctrl+Alt+X
@@ -219,10 +212,10 @@ cycleNextAction=none
 cyclePrevAction=none
 edit_clipboard=none
 manage activities=Meta+Q
-next activity=none
-previous activity=none
+next activity=Meta+Tab
+previous activity=Meta+Shift+Tab
 repeat_action=Ctrl+Alt+R
-show dashboard=none
+show dashboard=Ctrl+F12
 show-barcode=none
 show-on-mouse-pos=none
 stop current activity=none
