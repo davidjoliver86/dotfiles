@@ -1,22 +1,18 @@
-[ActivityManager][Global Shortcuts]
-switch-to-activity-c126576f-bf39-4c0a-971d-d3a514162c76=none
-
-[kaccess][Global Shortcuts]
-Toggle Screen Reader On and Off=none
-
-[kcm_touchpad][Global Shortcuts]
+[KDE Keyboard Layout Switcher][Global Shortcuts]
 Disable Touchpad=Touchpad Off
 Enable Touchpad=Touchpad On
 Show System Activity=Ctrl+Esc
 Switch to Next Keyboard Layout=Ctrl+Alt+K
 Toggle Touchpad=Touchpad Toggle
 display=Display; Meta+P
-{2dd6a53d-515f-4f30-8b7a-5ebbc394e167}=Meta+Shift+Print
-{449a2672-8650-4937-b038-d4d1bb12c785}=Shift+Print
-{b382ee6c-fdeb-4bf5-b205-02cc42c3d722}=Meta+Print
+{24bef71d-3140-4b4a-bd51-2ef9f3e2e0ce}=Shift+Print
+{5d1226e2-2a8d-4e8b-b694-bd31e4efebed}=Print
+{97576440-5423-400c-bd5e-fe17df20d6ef}=Meta+Print
+{9d21dead-bb41-47ac-bb84-f94bb94e5444}=Meta+Shift+Print
 {d03619b6-9b3c-48cc-9d9c-a2aadb485550}=none
-{ebbe4ec8-4288-4521-91b1-4468faeb3fed}=Ctrl+Alt+T
-{f2b9e904-f8b5-47e6-835d-9f3e5001f12c}=Print
+
+[kaccess][Global Shortcuts]
+Toggle Screen Reader On and Off=Meta+Alt+S
 
 [kmix][Global Shortcuts]
 decrease_microphone_volume=Microphone Volume Down
@@ -38,7 +34,7 @@ Log Out Without Confirmation=Ctrl+Alt+Shift+Del
 Reboot Without Confirmation=Ctrl+Alt+Shift+PgUp
 
 [kwin][Global Shortcuts]
-Activate Window Demanding Attention=Ctrl+Alt+A
+Activate Window Demanding Attention=none
 Decrease Opacity=none
 Expose=Meta+W
 ExposeAll=Meta+Shift+W; Launch (C)
@@ -46,21 +42,21 @@ ExposeClass=Meta+Alt+W
 Increase Opacity=none
 Invert Screen Colors=none
 Kill Window=Ctrl+Alt+Esc
-MoveMouseToCenter=Meta+F6
-MoveMouseToFocus=Meta+F5
+MoveMouseToCenter=none
+MoveMouseToFocus=none
 MoveZoomDown=none
 MoveZoomLeft=none
 MoveZoomRight=none
 MoveZoomUp=none
 Remove Window From Group=none
 Setup Window Shortcut=none
-Show Desktop=none
-ShowDesktopGrid=Ctrl+F8
+Show Desktop=Meta+Shift+D
+ShowDesktopGrid=Meta+D
 Suspend Compositing=Alt+Shift+F12
 Switch One Desktop Down=none
 Switch One Desktop Up=none
-Switch One Desktop to the Left=none
-Switch One Desktop to the Right=none
+Switch One Desktop to the Left=Ctrl+Alt+Left
+Switch One Desktop to the Right=Ctrl+Alt+Right
 Switch Window Down=Meta+Alt+Down
 Switch Window Left=Meta+Alt+Left
 Switch Window Right=Meta+Alt+Right
@@ -218,4 +214,7 @@ repeat_action=Ctrl+Alt+R
 show dashboard=Ctrl+F12
 show-barcode=none
 show-on-mouse-pos=none
-stop current activity=none
+stop current activity=Meta+S
+
+[yakuake][Global Shortcuts]
+toggle-window-state=Meta+`
