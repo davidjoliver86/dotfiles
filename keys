@@ -1,18 +1,18 @@
-[KDE Keyboard Layout Switcher][Global Shortcuts]
+[kaccess][Global Shortcuts]
+Toggle Screen Reader On and Off=none
+
+[kcm_touchpad][Global Shortcuts]
 Disable Touchpad=Touchpad Off
 Enable Touchpad=Touchpad On
 Show System Activity=Ctrl+Esc
 Switch to Next Keyboard Layout=Ctrl+Alt+K
 Toggle Touchpad=Touchpad Toggle
 display=Display; Meta+P
-{24bef71d-3140-4b4a-bd51-2ef9f3e2e0ce}=Shift+Print
-{5d1226e2-2a8d-4e8b-b694-bd31e4efebed}=Print
-{97576440-5423-400c-bd5e-fe17df20d6ef}=Meta+Print
-{9d21dead-bb41-47ac-bb84-f94bb94e5444}=Meta+Shift+Print
+{440975b8-afaf-47f0-9b54-b187d2333489}=Meta+Print
+{80606bd6-ae78-4de3-9305-3cb80320ce31}=Shift+Print
+{807f729a-3f91-4524-a45f-a1865b4248a3}=Print
+{a7db5c53-85b6-4ba3-a8a0-89e19269485d}=Meta+Shift+Print
 {d03619b6-9b3c-48cc-9d9c-a2aadb485550}=none
-
-[kaccess][Global Shortcuts]
-Toggle Screen Reader On and Off=Meta+Alt+S
 
 [kmix][Global Shortcuts]
 decrease_microphone_volume=Microphone Volume Down
@@ -27,27 +27,25 @@ run command=Meta+Space; Alt+F2; Search
 run command on clipboard contents=Meta+Alt+Space
 
 [ksmserver][Global Shortcuts]
-Halt Without Confirmation=Ctrl+Alt+Shift+PgDown
-Lock Session=Ctrl+Alt+L; Screensaver
-Log Out=Ctrl+Alt+Del
-Log Out Without Confirmation=Ctrl+Alt+Shift+Del
-Reboot Without Confirmation=Ctrl+Alt+Shift+PgUp
-
-[kwin][Global Shortcuts]
 Activate Window Demanding Attention=none
 Decrease Opacity=none
 Expose=Meta+W
 ExposeAll=Meta+Shift+W; Launch (C)
 ExposeClass=Meta+Alt+W
+Halt Without Confirmation=none
 Increase Opacity=none
 Invert Screen Colors=none
 Kill Window=Ctrl+Alt+Esc
+Lock Session=Ctrl+Alt+L; Screensaver
+Log Out=Ctrl+Alt+Del
+Log Out Without Confirmation=Ctrl+Alt+Shift+Del
 MoveMouseToCenter=none
 MoveMouseToFocus=none
-MoveZoomDown=none
-MoveZoomLeft=none
-MoveZoomRight=none
-MoveZoomUp=none
+MoveZoomDown=Meta+Ctrl+Down
+MoveZoomLeft=Meta+Ctrl+Left
+MoveZoomRight=Meta+Ctrl+Right
+MoveZoomUp=Meta+Ctrl+Up
+Reboot Without Confirmation=Ctrl+Alt+Shift+PgUp
 Remove Window From Group=none
 Setup Window Shortcut=none
 Show Desktop=Meta+Shift+D
@@ -55,8 +53,8 @@ ShowDesktopGrid=Meta+D
 Suspend Compositing=Alt+Shift+F12
 Switch One Desktop Down=none
 Switch One Desktop Up=none
-Switch One Desktop to the Left=Ctrl+Alt+Left
-Switch One Desktop to the Right=Ctrl+Alt+Right
+Switch One Desktop to the Left=none
+Switch One Desktop to the Right=none
 Switch Window Down=Meta+Alt+Down
 Switch Window Left=Meta+Alt+Left
 Switch Window Right=Meta+Alt+Right
@@ -81,9 +79,9 @@ Switch to Desktop 6=none
 Switch to Desktop 7=none
 Switch to Desktop 8=none
 Switch to Desktop 9=none
-Switch to Next Desktop=none
+Switch to Next Desktop=Ctrl+Alt+Right
 Switch to Next Screen=none
-Switch to Previous Desktop=none
+Switch to Previous Desktop=Ctrl+Alt+Left
 Switch to Previous Screen=none
 Switch to Screen 0=none
 Switch to Screen 1=none
@@ -201,6 +199,7 @@ activate task manager entry 6=Meta+6
 activate task manager entry 7=Meta+7
 activate task manager entry 8=Meta+8
 activate task manager entry 9=Meta+9
+activate widget 21=none
 activate widget 3=Alt+F1
 clear-history=none
 clipboard_action=Ctrl+Alt+X
@@ -214,7 +213,4 @@ repeat_action=Ctrl+Alt+R
 show dashboard=Ctrl+F12
 show-barcode=none
 show-on-mouse-pos=none
-stop current activity=Meta+S
-
-[yakuake][Global Shortcuts]
-toggle-window-state=Meta+`
+stop current activity=none
