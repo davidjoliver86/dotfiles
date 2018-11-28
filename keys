@@ -1,3 +1,6 @@
+[ActivityManager][Global Shortcuts]
+switch-to-activity-fd9ee443-4452-4571-9a30-17eee59aaf66=none
+
 [kaccess][Global Shortcuts]
 Toggle Screen Reader On and Off=none
 
@@ -5,14 +8,15 @@ Toggle Screen Reader On and Off=none
 Disable Touchpad=Touchpad Off
 Enable Touchpad=Touchpad On
 Show System Activity=Ctrl+Esc
-Switch to Next Keyboard Layout=Ctrl+Alt+K
+Switch to Next Keyboard Layout=none
 Toggle Touchpad=Touchpad Toggle
 display=Display; Meta+P
-{440975b8-afaf-47f0-9b54-b187d2333489}=Meta+Print
-{80606bd6-ae78-4de3-9305-3cb80320ce31}=Shift+Print
-{807f729a-3f91-4524-a45f-a1865b4248a3}=Print
-{a7db5c53-85b6-4ba3-a8a0-89e19269485d}=Meta+Shift+Print
+{371b49bd-1644-403c-8668-e7a5c8b48e08}=Meta+Print
+{4536cbac-8aee-46f4-b01e-17ede35d6644}=Print
+{713fe9ce-2e03-4fd3-a29b-b9c3eb6ca67f}=Meta+Shift+Print
+{bc2988a2-1c47-4701-b5e3-f1537a60f3a0}=Ctrl+Alt+T
 {d03619b6-9b3c-48cc-9d9c-a2aadb485550}=none
+{d86ced70-b461-461a-a84d-4829b46d013e}=Shift+Print
 
 [kmix][Global Shortcuts]
 decrease_microphone_volume=Microphone Volume Down
@@ -24,28 +28,30 @@ mute=Volume Mute
 
 [krunner][Global Shortcuts]
 run command=Meta+Space; Alt+F2; Search
-run command on clipboard contents=Meta+Alt+Space
+run command on clipboard contents=Meta+Ctrl+Space
 
 [ksmserver][Global Shortcuts]
+Halt Without Confirmation=Ctrl+Alt+Shift+PgDown
+Lock Session=Ctrl+Alt+L; Screensaver
+Log Out=Ctrl+Alt+Del
+Log Out Without Confirmation=Ctrl+Alt+Shift+Del
+Reboot Without Confirmation=Ctrl+Alt+Shift+PgUp
+
+[kwin][Global Shortcuts]
 Activate Window Demanding Attention=none
 Decrease Opacity=none
 Expose=Meta+W
 ExposeAll=Meta+Shift+W; Launch (C)
-ExposeClass=Meta+Alt+W
-Halt Without Confirmation=none
+ExposeClass=Meta+Ctrl+W
 Increase Opacity=none
 Invert Screen Colors=none
 Kill Window=Ctrl+Alt+Esc
-Lock Session=Ctrl+Alt+L; Screensaver
-Log Out=Ctrl+Alt+Del
-Log Out Without Confirmation=Ctrl+Alt+Shift+Del
 MoveMouseToCenter=none
 MoveMouseToFocus=none
-MoveZoomDown=Meta+Ctrl+Down
-MoveZoomLeft=Meta+Ctrl+Left
-MoveZoomRight=Meta+Ctrl+Right
-MoveZoomUp=Meta+Ctrl+Up
-Reboot Without Confirmation=Ctrl+Alt+Shift+PgUp
+MoveZoomDown=none
+MoveZoomLeft=none
+MoveZoomRight=none
+MoveZoomUp=none
 Remove Window From Group=none
 Setup Window Shortcut=none
 Show Desktop=Meta+Shift+D
@@ -79,9 +85,9 @@ Switch to Desktop 6=none
 Switch to Desktop 7=none
 Switch to Desktop 8=none
 Switch to Desktop 9=none
-Switch to Next Desktop=Ctrl+Alt+Right
+Switch to Next Desktop=none
 Switch to Next Screen=none
-Switch to Previous Desktop=Ctrl+Alt+Left
+Switch to Previous Desktop=none
 Switch to Previous Screen=none
 Switch to Screen 0=none
 Switch to Screen 1=none
@@ -124,7 +130,7 @@ Window One Desktop Down=none
 Window One Desktop Up=none
 Window One Desktop to the Left=none
 Window One Desktop to the Right=none
-Window Operations Menu=Alt+F3
+Window Operations Menu=none
 Window Pack Down=none
 Window Pack Left=none
 Window Pack Right=none
@@ -199,17 +205,16 @@ activate task manager entry 6=Meta+6
 activate task manager entry 7=Meta+7
 activate task manager entry 8=Meta+8
 activate task manager entry 9=Meta+9
-activate widget 21=none
 activate widget 3=Alt+F1
 clear-history=none
-clipboard_action=Ctrl+Alt+X
+clipboard_action=none
 cycleNextAction=none
 cyclePrevAction=none
 edit_clipboard=none
 manage activities=Meta+Q
 next activity=Meta+Tab
 previous activity=Meta+Shift+Tab
-repeat_action=Ctrl+Alt+R
+repeat_action=none
 show dashboard=Ctrl+F12
 show-barcode=none
 show-on-mouse-pos=none
