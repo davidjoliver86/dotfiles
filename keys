@@ -1,18 +1,18 @@
-[kaccess][Global Shortcuts]
-Toggle Screen Reader On and Off=none
-
-[khotkeys][Global Shortcuts]
+[KDE Keyboard Layout Switcher][Global Shortcuts]
 Disable Touchpad=Touchpad Off
 Enable Touchpad=Touchpad On
 Show System Activity=Ctrl+Esc
-Switch to Next Keyboard Layout=Ctrl+Alt+K
+Switch to Next Keyboard Layout=none
 Toggle Touchpad=Touchpad Toggle
 display=Display; Meta+P
-{023a9aba-a03d-49a4-bfbb-5c24cecab744}=Meta+Print
-{b049a6b9-5d56-4dea-94f4-90b50e37c638}=Meta+Shift+Print
-{cd4487b4-fcdb-4e5c-a5de-bd3452e1799e}=Print
+{5e1b8d84-fc93-42e3-9a6f-58277e2d2220}=Meta+Shift+Print
+{9351845a-e78e-4d42-80da-dcf4e978b4f6}=Shift+Print
+{bf26958a-8916-4dea-bb6d-7726c213fe00}=Print
 {d03619b6-9b3c-48cc-9d9c-a2aadb485550}=none
-{e6c97da5-f82a-47ef-b9a5-71a2b05c12f5}=Shift+Print
+{f4614e8e-589e-477a-b386-e8ce6e694235}=Meta+Print
+
+[kaccess][Global Shortcuts]
+Toggle Screen Reader On and Off=none
 
 [kmix][Global Shortcuts]
 decrease_microphone_volume=Microphone Volume Down
@@ -179,6 +179,14 @@ Window to Screen 7=none
 view_actual_size=none
 view_zoom_in=Meta+=
 view_zoom_out=Meta+-
+
+[mediacontrol][Global Shortcuts]
+mediavolumedown=none
+mediavolumeup=none
+nextmedia=Media Next
+playpausemedia=Media Play
+previousmedia=Media Previous
+stopmedia=Media Stop
 
 [org_kde_powerdevil][Global Shortcuts]
 Decrease Keyboard Brightness=Keyboard Brightness Down
