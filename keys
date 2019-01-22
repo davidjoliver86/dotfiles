@@ -1,22 +1,18 @@
-[ActivityManager][Global Shortcuts]
-switch-to-activity-fd9ee443-4452-4571-9a30-17eee59aaf66=none
-
 [kaccess][Global Shortcuts]
 Toggle Screen Reader On and Off=none
 
-[kcm_touchpad][Global Shortcuts]
+[khotkeys][Global Shortcuts]
 Disable Touchpad=Touchpad Off
 Enable Touchpad=Touchpad On
 Show System Activity=Ctrl+Esc
-Switch to Next Keyboard Layout=none
+Switch to Next Keyboard Layout=Ctrl+Alt+K
 Toggle Touchpad=Touchpad Toggle
 display=Display; Meta+P
-{371b49bd-1644-403c-8668-e7a5c8b48e08}=Meta+Print
-{4536cbac-8aee-46f4-b01e-17ede35d6644}=Print
-{713fe9ce-2e03-4fd3-a29b-b9c3eb6ca67f}=Meta+Shift+Print
-{bc2988a2-1c47-4701-b5e3-f1537a60f3a0}=Ctrl+Alt+T
+{023a9aba-a03d-49a4-bfbb-5c24cecab744}=Meta+Print
+{b049a6b9-5d56-4dea-94f4-90b50e37c638}=Meta+Shift+Print
+{cd4487b4-fcdb-4e5c-a5de-bd3452e1799e}=Print
 {d03619b6-9b3c-48cc-9d9c-a2aadb485550}=none
-{d86ced70-b461-461a-a84d-4829b46d013e}=Shift+Print
+{e6c97da5-f82a-47ef-b9a5-71a2b05c12f5}=Shift+Print
 
 [kmix][Global Shortcuts]
 decrease_microphone_volume=Microphone Volume Down
@@ -85,9 +81,9 @@ Switch to Desktop 6=none
 Switch to Desktop 7=none
 Switch to Desktop 8=none
 Switch to Desktop 9=none
-Switch to Next Desktop=none
+Switch to Next Desktop=Ctrl+Alt+Right
 Switch to Next Screen=none
-Switch to Previous Desktop=none
+Switch to Previous Desktop=Ctrl+Alt+Left
 Switch to Previous Screen=none
 Switch to Screen 0=none
 Switch to Screen 1=none
@@ -130,7 +126,7 @@ Window One Desktop Down=none
 Window One Desktop Up=none
 Window One Desktop to the Left=none
 Window One Desktop to the Right=none
-Window Operations Menu=none
+Window Operations Menu=Alt+F3
 Window Pack Down=none
 Window Pack Left=none
 Window Pack Right=none
@@ -207,15 +203,18 @@ activate task manager entry 8=Meta+8
 activate task manager entry 9=Meta+9
 activate widget 3=Alt+F1
 clear-history=none
-clipboard_action=none
+clipboard_action=Ctrl+Alt+X
 cycleNextAction=none
 cyclePrevAction=none
 edit_clipboard=none
 manage activities=Meta+Q
 next activity=Meta+Tab
 previous activity=Meta+Shift+Tab
-repeat_action=none
+repeat_action=Ctrl+Alt+R
 show dashboard=Ctrl+F12
 show-barcode=none
 show-on-mouse-pos=none
 stop current activity=none
+
+[yakuake][Global Shortcuts]
+toggle-window-state=Meta+`
