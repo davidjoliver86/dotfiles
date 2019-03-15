@@ -1,5 +1,5 @@
 [ActivityManager][Global Shortcuts]
-switch-to-activity-4080da15-a7e1-4210-b731-d93945a0a0b8=none
+switch-to-activity-09a81d50-4a1e-4f86-abc6-834590b7a955=none
 
 [KDE Keyboard Layout Switcher][Global Shortcuts]
 Disable Touchpad=Touchpad Off
@@ -8,11 +8,11 @@ Show System Activity=Ctrl+Esc
 Switch to Next Keyboard Layout=none
 Toggle Touchpad=Touchpad Toggle
 display=Display; Meta+P
-{5e1b8d84-fc93-42e3-9a6f-58277e2d2220}=Meta+Shift+Print
-{9351845a-e78e-4d42-80da-dcf4e978b4f6}=Shift+Print
-{bf26958a-8916-4dea-bb6d-7726c213fe00}=Print
+{7a7511ad-ac56-47e5-a22e-6d329ba89ff5}=Shift+Print
+{7dfdf962-ac5e-4726-8e30-b57bdeec6260}=Print
+{9964cbb4-f8b6-4e66-a93f-ffaea833bd64}=Ctrl+Print
+{b261eaf8-33df-4e54-b25f-8976e7e04211}=Meta+Print
 {d03619b6-9b3c-48cc-9d9c-a2aadb485550}=none
-{f4614e8e-589e-477a-b386-e8ce6e694235}=Meta+Print
 
 [kaccess][Global Shortcuts]
 Toggle Screen Reader On and Off=none
@@ -183,14 +183,6 @@ view_actual_size=none
 view_zoom_in=Meta+=
 view_zoom_out=Meta+-
 
-[mediacontrol][Global Shortcuts]
-mediavolumedown=none
-mediavolumeup=none
-nextmedia=Media Next
-playpausemedia=Media Play
-previousmedia=Media Previous
-stopmedia=Media Stop
-
 [org_kde_powerdevil][Global Shortcuts]
 Decrease Keyboard Brightness=Keyboard Brightness Down
 Decrease Screen Brightness=Monitor Brightness Down
@@ -214,14 +206,14 @@ activate task manager entry 8=Meta+8
 activate task manager entry 9=Meta+9
 activate widget 3=Alt+F1
 clear-history=none
-clipboard_action=Ctrl+Alt+X
+clipboard_action=none
 cycleNextAction=none
 cyclePrevAction=none
 edit_clipboard=none
 manage activities=Meta+Q
 next activity=Meta+Tab
 previous activity=Meta+Shift+Tab
-repeat_action=Ctrl+Alt+R
+repeat_action=none
 show dashboard=Ctrl+F12
 show-barcode=none
 show-on-mouse-pos=none
