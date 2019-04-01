@@ -1,21 +1,22 @@
 [ActivityManager][Global Shortcuts]
-switch-to-activity-09a81d50-4a1e-4f86-abc6-834590b7a955=none
-
-[KDE Keyboard Layout Switcher][Global Shortcuts]
-Disable Touchpad=Touchpad Off
-Enable Touchpad=Touchpad On
-Show System Activity=Ctrl+Esc
-Switch to Next Keyboard Layout=none
-Toggle Touchpad=Touchpad Toggle
-display=Display; Meta+P
-{7a7511ad-ac56-47e5-a22e-6d329ba89ff5}=Shift+Print
-{7dfdf962-ac5e-4726-8e30-b57bdeec6260}=Print
-{9964cbb4-f8b6-4e66-a93f-ffaea833bd64}=Ctrl+Print
-{b261eaf8-33df-4e54-b25f-8976e7e04211}=Meta+Print
-{d03619b6-9b3c-48cc-9d9c-a2aadb485550}=none
+switch-to-activity-d49c3dee-080d-4eca-bb94-d06881cdfc19=none
 
 [kaccess][Global Shortcuts]
 Toggle Screen Reader On and Off=none
+
+[kded5][Global Shortcuts]
+Disable Touchpad=Touchpad Off
+Enable Touchpad=Touchpad On
+Show System Activity=Ctrl+Esc
+Switch to Next Keyboard Layout=Ctrl+Alt+K
+Toggle Touchpad=Touchpad Toggle
+display=Display; Meta+P
+{62a15685-e264-48b3-a566-e9f6566c3529}=Meta+Shift+Print
+{740a9ffe-a99d-400e-8e19-242426227819}=none
+{78e81935-35bf-4f26-a500-b5519163cd95}=Print
+{c2e0c283-126f-42a0-b688-7d18aa8e186c}=Shift+Print
+{d03619b6-9b3c-48cc-9d9c-a2aadb485550}=none
+{e3d23d4b-cc5a-4857-bfd6-59b02ca87e96}=Meta+Print
 
 [kmix][Global Shortcuts]
 decrease_microphone_volume=Microphone Volume Down
@@ -183,6 +184,14 @@ view_actual_size=none
 view_zoom_in=Meta+=
 view_zoom_out=Meta+-
 
+[mediacontrol][Global Shortcuts]
+mediavolumedown=none
+mediavolumeup=none
+nextmedia=Media Next
+playpausemedia=Media Play
+previousmedia=Media Previous
+stopmedia=Media Stop
+
 [org_kde_powerdevil][Global Shortcuts]
 Decrease Keyboard Brightness=Keyboard Brightness Down
 Decrease Screen Brightness=Monitor Brightness Down
@@ -205,15 +214,16 @@ activate task manager entry 7=Meta+7
 activate task manager entry 8=Meta+8
 activate task manager entry 9=Meta+9
 activate widget 3=Alt+F1
+activate widget 45=none
 clear-history=none
-clipboard_action=none
+clipboard_action=Ctrl+Alt+X
 cycleNextAction=none
 cyclePrevAction=none
 edit_clipboard=none
 manage activities=Meta+Q
 next activity=Meta+Tab
 previous activity=Meta+Shift+Tab
-repeat_action=none
+repeat_action=Ctrl+Alt+R
 show dashboard=Ctrl+F12
 show-barcode=none
 show-on-mouse-pos=none
