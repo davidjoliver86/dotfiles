@@ -1,0 +1,18 @@
+---
+
+- name: pyenv
+  hosts: 127.0.0.1
+  connection: local
+  become: yes
+  become_user: davido
+  tasks:
+
+  - name: add flathub repo
+    flatpak_remote:
+      name: flathub
+      flatpakrepo_url: https://flathub.org/repo/flathub.flatpakrepo
+
+  - name: install slack from flathub
+    flatpak:
+      name: com.slack.Slack
+      remote: flathub
