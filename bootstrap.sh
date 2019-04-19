@@ -1,5 +1,5 @@
 #!/bin/bash
-ANSIBLE_VERSION=2.7.9
+ANSIBLE_VERSION=2.7.10
 
 apt update
 apt install -y python3-apt python3-venv git
