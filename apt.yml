@@ -14,19 +14,7 @@
   - name: google apt repo
     apt_repository:
       repo: deb [arch=amd64] http://dl.google.com/linux/chrome/deb/ stable main
-
-  - name: microsoft apt key
-    apt_key:
-      keyserver: keyserver.ubuntu.com
-      id: BE1229CF
-
-  - name: microsoft apt repo
-    apt_repository:
-      repo: deb [arch=amd64] http://packages.microsoft.com/repos/vscode stable main
-
-  - name: apt update
-    apt:
-      update_cache: yes
+      filename: google-chrome
 
   - name: install packages
     apt:
@@ -38,7 +26,6 @@
         - papirus-icon-theme
         - fonts-inconsolata
         - google-chrome-stable
-        - code
         - yakuake
 
   - name: remove apport
