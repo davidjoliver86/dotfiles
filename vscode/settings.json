@@ -20,12 +20,11 @@
         "**/.terraform/**": true,
         "**/.terraform": true,
         "**/.tox/**": true,
-        "**/.tox": true,
+        "**/.tox": true
     },
 
-    "editor.fontSize": 14.25,
-    "editor.fontFamily": "Inconsolata",
-    "editor.fontWeight": "800",
+    "editor.fontSize": 12.25,
+    "editor.fontFamily": "Fira Mono Medium",
     "editor.lineHeight": 16,
     "editor.minimap.enabled": false,
 
@@ -36,6 +35,7 @@
     "window.titleBarStyle": "native",
 
     "workbench.activityBar.visible": true,
+    "workbench.commandPalette.history": 0,
     "workbench.iconTheme": "material-icon-theme",
     "workbench.settings.useSplitJSON": true,
     "workbench.startupEditor": "newUntitledFile",
@@ -43,5 +43,5 @@
 
     "[terraform]": {
         "editor.formatOnSave": true
-    },
+    }
 }
