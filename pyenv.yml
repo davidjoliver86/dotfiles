@@ -39,4 +39,5 @@
   - name: install pyenv
     shell: curl https://pyenv.run | bash
     args:
+      creates: /home/davido/.pyenv
       executable: /bin/bash
