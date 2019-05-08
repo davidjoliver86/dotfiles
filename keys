@@ -1,5 +1,5 @@
 [ActivityManager][Global Shortcuts]
-switch-to-activity-ba656b2c-9041-4b06-a46a-302459f91511=none
+switch-to-activity-10e363b3-2467-433b-805e-82f20c5e5551=none
 
 [kaccess][Global Shortcuts]
 Toggle Screen Reader On and Off=none
@@ -8,14 +8,14 @@ Toggle Screen Reader On and Off=none
 Disable Touchpad=Touchpad Off
 Enable Touchpad=Touchpad On
 Show System Activity=Ctrl+Esc
-Switch to Next Keyboard Layout=none
+Switch to Next Keyboard Layout=Ctrl+Alt+K
 Toggle Touchpad=Touchpad Toggle
 display=Display; Meta+P
-{10918069-1ecf-4898-8f36-5d67f07714c1}=Print
-{38001d66-107a-4af8-9a60-8fff997a954d}=Ctrl+Alt+T
-{a5668ed1-f597-4761-8d18-339b61e1f21e}=Shift+Print
-{b83ef496-e509-4b5e-9e8e-8742a73a6625}=Meta+Print
-{c973016d-efd8-4324-a03b-a3b6b22b010f}=Meta+Shift+Print
+{1bf10b9e-73db-4678-b884-1dd3b970a479}=Meta+Print
+{3eb87dde-bfe4-4332-bcb9-994e6f7a045f}=Print
+{49e55849-cd96-4918-b1ac-212081fe971f}=Meta+Shift+Print
+{5c2451d2-e138-45f8-baee-8e96cf5392f4}=Shift+Print
+{89952f0b-1091-4d58-882f-fe1101caadda}=Ctrl+Alt+T
 {d03619b6-9b3c-48cc-9d9c-a2aadb485550}=none
 
 [kmix][Global Shortcuts]
@@ -38,7 +38,7 @@ Log Out Without Confirmation=Ctrl+Alt+Shift+Del
 Reboot Without Confirmation=Ctrl+Alt+Shift+PgUp
 
 [kwin][Global Shortcuts]
-Activate Window Demanding Attention=none
+Activate Window Demanding Attention=Ctrl+Alt+A
 Decrease Opacity=none
 Expose=Meta+W
 ExposeAll=Meta+Shift+W
@@ -183,14 +183,6 @@ Window to Screen 7=none
 view_actual_size=none
 view_zoom_in=Meta+=
 view_zoom_out=Meta+-
-
-[mediacontrol][Global Shortcuts]
-mediavolumedown=none
-mediavolumeup=none
-nextmedia=Media Next
-playpausemedia=Media Play
-previousmedia=Media Previous
-stopmedia=Media Stop
 
 [org_kde_powerdevil][Global Shortcuts]
 Decrease Keyboard Brightness=Keyboard Brightness Down
