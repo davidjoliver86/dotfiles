@@ -1,0 +1,49 @@
+---
+
+- name: syncthing
+  hosts: 127.0.0.1
+  connection: local
+  become: yes
+  tasks:
+
+  - name: syncthing apt key
+    apt_key:
+      keyserver: keyserver.ubuntu.com
+      id: D26E6ED000654A3E
+
+  - name: syncthing apt repo
+    apt_repository:
+      repo: deb https://apt.syncthing.net/ syncthing stable
+      filename: syncthing
+
+  - name: apt update
+    apt:
+      update_cache: yes
+
+  - name: install syncthing
+    apt:
+      name: syncthing
+
+- name: syncthing user
+  hosts: 127.0.0.1
+  connection: local
+  become: yes
+  become_user: davido
+  tasks:
+
+  - name: user systemd folder
+    file:
+      path: /home/davido/.config/systemd/user
+      state: directory
+
+  - name: copy unit file
+    copy:
+      src: syncthing/syncthing.service
+      dest: /home/davido/.config/systemd/user/syncthing.service
+
+  - name: syncthing service
+    systemd:
+      name: syncthing
+      scope: user
+      enabled: yes
+      state: started
