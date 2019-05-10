@@ -24,7 +24,7 @@
     },
 
     "editor.fontSize": 12.25,
-    "editor.fontFamily": "Hack",
+    "editor.fontFamily": "Fira Mono Medium",
     "editor.lineHeight": 16,
     "editor.minimap.enabled": false,
 
