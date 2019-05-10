@@ -24,9 +24,7 @@
         - vim
         - git
         - papirus-icon-theme
-        - fonts-inconsolata
         - google-chrome-stable
-        - yakuake
 
   - name: remove apport
     apt:
