@@ -25,6 +25,7 @@
         - git
         - papirus-icon-theme
         - google-chrome-stable
+        - yakuake
 
   - name: remove apport
     apt:

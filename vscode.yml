@@ -6,23 +6,11 @@
   become: yes
   tasks:
 
-  - name: microsoft apt key
-    apt_key:
-      keyserver: keyserver.ubuntu.com
-      id: EB3E94ADBE1229CF
-
-  - name: microsoft apt repo
-    apt_repository:
-      repo: deb [arch=amd64] http://packages.microsoft.com/repos/vscode stable main
-      filename: vscode
-
-  - name: apt update
-    apt:
-      update_cache: yes
-
   - name: install vscode
-    apt:
+    snap:
       name: code
+      classic: yes
+      channel: stable
 
 - name: vscode
   hosts: 127.0.0.1

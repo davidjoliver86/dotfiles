@@ -1,8 +1,8 @@
 #!/bin/bash
-ANSIBLE_VERSION=2.7.10
+ANSIBLE_VERSION=2.8.0
 
 apt update
-apt install -y python3-apt python3-venv git
+apt install -y python3-apt python3-venv git aptitude
 /usr/bin/python3 -m venv /usr/lib/virtualenvs/ansible --system-site-packages
 
 /usr/lib/virtualenvs/ansible/bin/pip install ansible==${ANSIBLE_VERSION}
