@@ -1,5 +1,5 @@
 [ActivityManager][Global Shortcuts]
-switch-to-activity-b6120441-68bd-4b2a-bf24-6fb7338b65f2=none
+switch-to-activity-0d9beb43-7efc-4f60-b16e-db7503433ddc=none
 
 [kaccess][Global Shortcuts]
 Toggle Screen Reader On and Off=none
@@ -11,12 +11,12 @@ Show System Activity=Ctrl+Esc
 Switch to Next Keyboard Layout=Ctrl+Alt+K
 Toggle Touchpad=Touchpad Toggle
 display=Display; Meta+P
-{8b9e7c0b-a03f-4b60-ab3b-3fbe4fb397b8}=Shift+Print
-{9e19c761-1e5d-4c49-a0f5-2902108f43c8}=Ctrl+Alt+T
-{a9c3c2d3-fc96-453f-be75-61f14c6b0578}=Meta+Print
+{41c2e735-c95b-426a-ad5b-5a555f6015c7}=Meta+Shift+Print
+{498a3597-81ee-4721-8b38-af1d74897bef}=Ctrl+Alt+T
+{95385b52-610d-4330-9609-ca84510eb9ba}=Shift+Print
+{b5bc418b-30e2-4709-ad84-7a2cb278e8c6}=Print
 {d03619b6-9b3c-48cc-9d9c-a2aadb485550}=none
-{ed7cb9e9-7dd5-454e-b73c-0c6a3f437fbf}=Meta+Shift+Print
-{fd247eb9-6a47-42eb-8aa3-05f22c2db82e}=Print
+{d4eac601-38d5-4adc-930e-47e9a4cedf1c}=Meta+Print
 
 [kmix][Global Shortcuts]
 decrease_microphone_volume=Microphone Volume Down
@@ -183,14 +183,6 @@ Window to Screen 7=none
 view_actual_size=none
 view_zoom_in=Meta+=
 view_zoom_out=Meta+-
-
-[mediacontrol][Global Shortcuts]
-mediavolumedown=none
-mediavolumeup=none
-nextmedia=Media Next
-playpausemedia=Media Play
-previousmedia=Media Previous
-stopmedia=Media Stop
 
 [org_kde_powerdevil][Global Shortcuts]
 Decrease Keyboard Brightness=Keyboard Brightness Down
