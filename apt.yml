@@ -25,7 +25,6 @@
         - git
         - papirus-icon-theme
         - google-chrome-stable
-        - fonts-inconsolata
 
   - name: remove apport
     apt:

@@ -1,5 +1,5 @@
 [ActivityManager][Global Shortcuts]
-switch-to-activity-0d9beb43-7efc-4f60-b16e-db7503433ddc=none
+switch-to-activity-d4a07c2b-4158-4928-b7f5-ea1c081fe944=none
 
 [kaccess][Global Shortcuts]
 Toggle Screen Reader On and Off=none
@@ -11,12 +11,12 @@ Show System Activity=Ctrl+Esc
 Switch to Next Keyboard Layout=Ctrl+Alt+K
 Toggle Touchpad=Touchpad Toggle
 display=Display; Meta+P
-{41c2e735-c95b-426a-ad5b-5a555f6015c7}=Meta+Shift+Print
-{498a3597-81ee-4721-8b38-af1d74897bef}=Ctrl+Alt+T
-{95385b52-610d-4330-9609-ca84510eb9ba}=Shift+Print
-{b5bc418b-30e2-4709-ad84-7a2cb278e8c6}=Print
+{1dfd9794-76a0-4ba9-b45e-d168dd11a3f1}=Print
+{6fcae64d-77c6-4d16-999c-006e142c87fd}=Meta+Print
+{852afd5b-e485-423e-85e5-88cc12f6b229}=Ctrl+Alt+T
 {d03619b6-9b3c-48cc-9d9c-a2aadb485550}=none
-{d4eac601-38d5-4adc-930e-47e9a4cedf1c}=Meta+Print
+{d3edbbfd-5293-442a-a044-12484b6912d8}=Shift+Print
+{f62dd3d2-2468-469b-af34-c64e6dd7b049}=Meta+Shift+Print
 
 [kmix][Global Shortcuts]
 decrease_microphone_volume=Microphone Volume Down
@@ -184,6 +184,14 @@ view_actual_size=none
 view_zoom_in=Meta+=
 view_zoom_out=Meta+-
 
+[mediacontrol][Global Shortcuts]
+mediavolumedown=none
+mediavolumeup=none
+nextmedia=Media Next
+playpausemedia=Media Play
+previousmedia=Media Previous
+stopmedia=Media Stop
+
 [org_kde_powerdevil][Global Shortcuts]
 Decrease Keyboard Brightness=Keyboard Brightness Down
 Decrease Screen Brightness=Monitor Brightness Down
@@ -205,7 +213,7 @@ activate task manager entry 6=Meta+6
 activate task manager entry 7=Meta+7
 activate task manager entry 8=Meta+8
 activate task manager entry 9=Meta+9
-activate widget 3=Alt+F1
+activate widget 5=Alt+F1
 clear-history=none
 clipboard_action=Ctrl+Alt+X
 cycleNextAction=none
@@ -229,6 +237,3 @@ Previous Profile=Meta+Ctrl+P
 Toggle screen map selection=Meta+Ctrl+M
 Toggle stylus mode=Meta+Ctrl+S
 Toggle touch tool=Meta+Ctrl+T
-
-[yakuake][Global Shortcuts]
-toggle-window-state=Meta+`
