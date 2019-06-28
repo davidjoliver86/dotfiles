@@ -1,5 +1,5 @@
 [ActivityManager][Global Shortcuts]
-switch-to-activity-d4a07c2b-4158-4928-b7f5-ea1c081fe944=none
+switch-to-activity-5c361f9a-942b-48bc-b2de-58a674a3dd65=none
 
 [kaccess][Global Shortcuts]
 Toggle Screen Reader On and Off=none
@@ -11,12 +11,12 @@ Show System Activity=Ctrl+Esc
 Switch to Next Keyboard Layout=Ctrl+Alt+K
 Toggle Touchpad=Touchpad Toggle
 display=Display; Meta+P
-{1dfd9794-76a0-4ba9-b45e-d168dd11a3f1}=Print
-{6fcae64d-77c6-4d16-999c-006e142c87fd}=Meta+Print
-{852afd5b-e485-423e-85e5-88cc12f6b229}=Ctrl+Alt+T
+{0498279b-841a-40e1-8faf-14cba37016a6}=Meta+Shift+Print
+{2379fad0-319a-462e-9589-208cb487b128}=Shift+Print
+{63289706-2280-48f9-9b39-238ff0ec51b1}=Print
+{c8797c86-aab5-4138-91fe-8c258f38e670}=Meta+Print
 {d03619b6-9b3c-48cc-9d9c-a2aadb485550}=none
-{d3edbbfd-5293-442a-a044-12484b6912d8}=Shift+Print
-{f62dd3d2-2468-469b-af34-c64e6dd7b049}=Meta+Shift+Print
+{d8bcba09-7e00-461e-99f7-2ce5421ad9b7}=Ctrl+Alt+T
 
 [kmix][Global Shortcuts]
 decrease_microphone_volume=Microphone Volume Down
@@ -213,7 +213,7 @@ activate task manager entry 6=Meta+6
 activate task manager entry 7=Meta+7
 activate task manager entry 8=Meta+8
 activate task manager entry 9=Meta+9
-activate widget 5=Alt+F1
+activate widget 3=none
 clear-history=none
 clipboard_action=Ctrl+Alt+X
 cycleNextAction=none
