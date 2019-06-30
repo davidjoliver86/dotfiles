@@ -1,0 +1,12 @@
+---
+- name: konsole settings
+  hosts: 127.0.0.1
+  connection: local
+  become: yes
+  become_user: davido
+  tasks:
+
+  - name: install konsole settings
+    copy:
+      src: konsole/
+      dest: /home/davido/.local/share/konsole/
