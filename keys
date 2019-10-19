@@ -1,22 +1,22 @@
 [ActivityManager][Global Shortcuts]
-switch-to-activity-5c361f9a-942b-48bc-b2de-58a674a3dd65=none
+switch-to-activity-f55470c4-408e-40fc-b28c-42359ed42425=none
 
-[kaccess][Global Shortcuts]
-Toggle Screen Reader On and Off=none
-
-[khotkeys][Global Shortcuts]
+[KDE Keyboard Layout Switcher][Global Shortcuts]
 Disable Touchpad=Touchpad Off
 Enable Touchpad=Touchpad On
 Show System Activity=Ctrl+Esc
 Switch to Next Keyboard Layout=Ctrl+Alt+K
 Toggle Touchpad=Touchpad Toggle
 display=Display; Meta+P
-{0498279b-841a-40e1-8faf-14cba37016a6}=Meta+Shift+Print
-{2379fad0-319a-462e-9589-208cb487b128}=Shift+Print
-{63289706-2280-48f9-9b39-238ff0ec51b1}=Print
-{c8797c86-aab5-4138-91fe-8c258f38e670}=Meta+Print
+{2a94fec2-5c7a-40dc-b630-5100d4afd1e8}=Meta+Print
+{4c3998a9-1f34-48f3-9435-9ed2d1289d36}=Print
+{9b4d840e-7ac5-4fa9-9a07-9710957fc292}=Meta+Shift+Print
+{a7389962-a847-40d2-9b76-b8c6af0aaa83}=Ctrl+Alt+T
 {d03619b6-9b3c-48cc-9d9c-a2aadb485550}=none
-{d8bcba09-7e00-461e-99f7-2ce5421ad9b7}=Ctrl+Alt+T
+{d81c6327-8d8d-45ee-b0ba-583df17e1fe0}=Shift+Print
+
+[kaccess][Global Shortcuts]
+Toggle Screen Reader On and Off=none
 
 [kmix][Global Shortcuts]
 decrease_microphone_volume=Microphone Volume Down
@@ -32,7 +32,7 @@ run command on clipboard contents=Meta+Ctrl+Space
 
 [ksmserver][Global Shortcuts]
 Halt Without Confirmation=Ctrl+Alt+Shift+PgDown
-Lock Session=Ctrl+Alt+L; Screensaver
+Lock Session=Ctrl+Alt+L; Screensaver;\s
 Log Out=Ctrl+Alt+Del
 Log Out Without Confirmation=Ctrl+Alt+Shift+Del
 Reboot Without Confirmation=Ctrl+Alt+Shift+PgUp
@@ -213,7 +213,7 @@ activate task manager entry 6=Meta+6
 activate task manager entry 7=Meta+7
 activate task manager entry 8=Meta+8
 activate task manager entry 9=Meta+9
-activate widget 3=none
+activate widget 3=Alt+F1
 clear-history=none
 clipboard_action=Ctrl+Alt+X
 cycleNextAction=none
