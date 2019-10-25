@@ -6,23 +6,10 @@
   become: yes
   tasks:
 
-  - name: syncthing apt key
-    apt_key:
-      keyserver: keyserver.ubuntu.com
-      id: D26E6ED000654A3E
-
-  - name: syncthing apt repo
-    apt_repository:
-      repo: deb https://apt.syncthing.net/ syncthing stable
-      filename: syncthing
-
-  - name: apt update
-    apt:
-      update_cache: yes
-
   - name: install syncthing
-    apt:
+    snap:
       name: syncthing
+      channel: stable
 
 - name: syncthing user
   hosts: 127.0.0.1

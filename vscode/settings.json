@@ -1,7 +1,6 @@
 {
     "telemetry.enableCrashReporter": false,
     "telemetry.enableTelemetry": false,
-
     "files.exclude": {
         "**/.git": true,
         "**/.svn": true,
@@ -22,26 +21,36 @@
         "**/.tox/**": true,
         "**/.tox": true
     },
-
-    "editor.fontSize": 12.25,
-    "editor.fontFamily": "Hack",
+    "editor.fontSize": 12,
+    "editor.fontFamily": "Monospace",
+    "editor.formatOnSave": true,
     "editor.lineHeight": 16,
     "editor.minimap.enabled": false,
-
     "typescript.surveys.enabled": false,
-
     "window.menuBarVisibility": "toggle",
     "window.title": "${activeEditorShort}${separator}${rootName}${separator}${appName}",
     "window.titleBarStyle": "native",
-
     "workbench.activityBar.visible": true,
     "workbench.commandPalette.history": 0,
-    "workbench.iconTheme": "material-icon-theme",
     "workbench.settings.useSplitJSON": true,
     "workbench.startupEditor": "newUntitledFile",
-    "workbench.statusBar.feedback.visible": false,
-
-    "[terraform]": {
-        "editor.formatOnSave": true
+    "workbench.iconTheme": "material-icon-theme",
+    "terraform.indexing": {
+        "enabled": false,
+        "liveIndexing": false,
+        "delay": 500,
+        "exclude": [
+            ".terraform/**/*",
+            "**/.terraform/**/*"
+        ]
+    },
+    "terraform.languageServer": {
+        "enabled": true,
+        "args": []
+    },
+    "terraform.format": {
+        "ignoreExtensionsOnSave": [
+            ".tfsmurf"
+        ]
     }
 }

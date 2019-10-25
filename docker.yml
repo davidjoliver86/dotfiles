@@ -1,0 +1,17 @@
+---
+
+- name: docker
+  hosts: 127.0.0.1
+  connection: local
+  become: yes
+  tasks:
+
+  - name: install docker
+    apt:
+      name: docker.io
+
+  - name: add my user to docker group
+    user:
+      name: davido
+      groups: docker
+      append: yes
