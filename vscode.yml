@@ -1,16 +1,24 @@
 ---
 
-- name: vscode snap
+- name: vscodium
   hosts: 127.0.0.1
   connection: local
   become: yes
   tasks:
 
-  - name: install vscode
-    snap:
-      name: code
-      classic: yes
-      channel: stable
+  - name: vscodium apt key
+    apt_key:
+      keyserver: keyserver.ubuntu.com
+      id: 54678CF75A278D9C
+
+  - name: vscodium apt repo
+    apt_repository:
+      repo: deb https://gitlab.com/paulcarroty/vscodium-deb-rpm-repo/raw/repos/debs/ vscodium main
+      filename: vscodium
+
+  - name: install vscodium
+    apt:
+      name: codium
 
 - name: vscode settings
   hosts: 127.0.0.1
@@ -22,4 +30,4 @@
   - name: install vscode settings
     copy:
       src: vscode/
-      dest: /home/davido/.config/Code/User/
+      dest: /home/davido/.config/VSCodium/User/
