@@ -21,10 +21,10 @@
         "**/.tox/**": true,
         "**/.tox": true
     },
-    "editor.fontSize": 12,
+    "editor.fontSize": 12.5,
     "editor.fontFamily": "Monospace",
     "editor.formatOnSave": true,
-    "editor.lineHeight": 16,
+    "editor.lineHeight": 17,
     "editor.minimap.enabled": false,
     "typescript.surveys.enabled": false,
     "window.menuBarVisibility": "toggle",
@@ -34,23 +34,5 @@
     "workbench.commandPalette.history": 0,
     "workbench.settings.useSplitJSON": true,
     "workbench.startupEditor": "newUntitledFile",
-    "workbench.iconTheme": "material-icon-theme",
-    "terraform.indexing": {
-        "enabled": false,
-        "liveIndexing": false,
-        "delay": 500,
-        "exclude": [
-            ".terraform/**/*",
-            "**/.terraform/**/*"
-        ]
-    },
-    "terraform.languageServer": {
-        "enabled": true,
-        "args": []
-    },
-    "terraform.format": {
-        "ignoreExtensionsOnSave": [
-            ".tfsmurf"
-        ]
-    }
+    "workbench.iconTheme": "material-icon-theme"
 }
