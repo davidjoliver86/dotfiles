@@ -25,6 +25,8 @@
         - git
         - papirus-icon-theme
         - google-chrome-stable
+        - htop
+        - jq
 
   - name: remove apport
     apt:

@@ -1,23 +1,19 @@
 [ActivityManager][Global Shortcuts]
-switch-to-activity-34466f05-0666-4992-a433-3fc24ef06e95=none
+switch-to-activity-adb0f798-fd99-438a-a6ae-e90ade12d55f=none
 
-[kaccess][Global Shortcuts]
-Toggle Screen Reader On and Off=none
-
-[khotkeys][Global Shortcuts]
+[KDE Keyboard Layout Switcher][Global Shortcuts]
 Disable Touchpad=Touchpad Off
 Enable Touchpad=Touchpad On
 Show System Activity=Ctrl+Esc
 Switch keyboard layout to English (US)=none
-Switch to Next Keyboard Layout=Ctrl+Alt+K
+Switch to Next Keyboard Layout=none
 Toggle Touchpad=Touchpad Toggle
 display=Display; Meta+P
-{19d84314-6b92-4be5-a841-dd9af1b56ce9}=Meta+Print
-{41022fab-4db1-48c1-a789-7fad53c35454}=Ctrl+Alt+T
-{53f27b27-aaa4-4855-94d0-22dd7e7b1916}=Print
-{9cc9fb65-1c4d-4c82-a212-de6c5feff944}=Meta+Shift+Print
-{d03619b6-9b3c-48cc-9d9c-a2aadb485550}=Meta+Alt+Space
-{fa3049ab-e589-4768-8e2f-620e603387ed}=Shift+Print
+{b4ec8ecf-0bea-4502-b245-3ad3cc8e1900}=Ctrl+Alt+T
+{d03619b6-9b3c-48cc-9d9c-a2aadb485550}=none
+
+[kaccess][Global Shortcuts]
+Toggle Screen Reader On and Off=none
 
 [kmix][Global Shortcuts]
 decrease_microphone_volume=Microphone Volume Down
@@ -186,13 +182,15 @@ view_actual_size=none
 view_zoom_in=Meta+=
 view_zoom_out=Meta+-
 
-[mediacontrol][Global Shortcuts]
-mediavolumedown=none
-mediavolumeup=none
-nextmedia=Media Next
-playpausemedia=Media Play
-previousmedia=Media Previous
-stopmedia=Media Stop
+[org.kde.dolphin.desktop][Global Shortcuts]
+_launch=Meta+E
+
+[org.kde.spectacle.desktop][Global Shortcuts]
+ActiveWindowScreenShot=Meta+Print
+CurrentMonitorScreenShot=none
+FullScreenScreenShot=Shift+Print
+RectangularRegionScreenShot=Meta+Shift+Print
+_launch=Print
 
 [org_kde_powerdevil][Global Shortcuts]
 Decrease Keyboard Brightness=Keyboard Brightness Down
@@ -216,7 +214,6 @@ activate task manager entry 6=Meta+6
 activate task manager entry 7=Meta+7
 activate task manager entry 8=Meta+8
 activate task manager entry 9=Meta+9
-activate widget 22=none
 activate widget 3=Alt+F1
 clear-history=none
 clipboard_action=Ctrl+Alt+X
@@ -227,7 +224,7 @@ manage activities=Meta+Q
 next activity=Meta+Tab
 previous activity=Meta+Shift+Tab
 repeat_action=Ctrl+Alt+R
-show dashboard=Ctrl+F12
+show dashboard=none
 show-barcode=none
 show-on-mouse-pos=none
 stop current activity=none

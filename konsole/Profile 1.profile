@@ -5,7 +5,7 @@ UseFontLineChararacters=true
 Name=Profile 1
 Parent=FALLBACK/
 TerminalCenter=true
-TerminalMargin=1
+TerminalMargin=2
 
 [Scrolling]
 HistorySize=10000
