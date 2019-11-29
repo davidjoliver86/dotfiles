@@ -1,12 +1,12 @@
 ---
 
-- name: pyenv apt
+- name: pyenv apt packages
   hosts: 127.0.0.1
   connection: local
   become: yes
   tasks:
 
-  - name: install packages
+  - name: install pyenv packages
     apt:
       name: "{{ packages }}"
     vars:

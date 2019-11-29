@@ -1,0 +1,19 @@
+---
+
+- name: kvm
+  hosts: 127.0.0.1
+  connection: local
+  become: yes
+  tasks:
+
+  - name: install kvm packages
+    apt:
+      name: "{{ packages }}"
+    vars:
+      packages:
+        - qemu-kvm
+        - libvirt-daemon-system
+        - libvirt-clients
+        - bridge-utils
+        - virt-viewer
+        - virt-manager

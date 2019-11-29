@@ -1,0 +1,25 @@
+---
+
+- name: vscode
+  hosts: 127.0.0.1
+  connection: local
+  become: yes
+  tasks:
+
+  - name: install vscode
+    snap:
+      name: code
+      classic: yes
+      channel: stable
+
+- name: vscode settings
+  hosts: 127.0.0.1
+  connection: local
+  become: yes
+  become_user: davido
+  tasks:
+
+  - name: install vscode settings
+    copy:
+      src: vscode/
+      dest: /home/davido/.config/Code/User/

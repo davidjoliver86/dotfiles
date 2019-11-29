@@ -1,6 +1,6 @@
 ---
 
-- name: apt
+- name: base
   hosts: 127.0.0.1
   connection: local
   become: yes
@@ -16,7 +16,7 @@
       repo: deb [arch=amd64] http://dl.google.com/linux/chrome/deb/ stable main
       filename: google-chrome
 
-  - name: install packages
+  - name: install apt packages
     apt:
       name: "{{ packages }}"
     vars:
@@ -25,6 +25,12 @@
         - git
         - papirus-icon-theme
         - google-chrome-stable
+
+  - name: install snap packages
+    snap:
+      name: "{{ packages }}"
+    vars:
+      packages:
         - htop
         - jq
 
@@ -33,6 +39,11 @@
       name: apport
       state: absent
       purge: yes
+
+  - name: copy dotfiles
+    copy:
+      src: bash/
+      dest: /home/davido/
 
   - name: autoremove
     apt:

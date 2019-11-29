@@ -1,7 +1,11 @@
 [ActivityManager][Global Shortcuts]
 switch-to-activity-adb0f798-fd99-438a-a6ae-e90ade12d55f=none
+switch-to-activity-e5fb2c66-78ec-4d5e-b42c-9181c15f900a=none
 
-[KDE Keyboard Layout Switcher][Global Shortcuts]
+[kaccess][Global Shortcuts]
+Toggle Screen Reader On and Off=none
+
+[khotkeys][Global Shortcuts]
 Disable Touchpad=Touchpad Off
 Enable Touchpad=Touchpad On
 Show System Activity=Ctrl+Esc
@@ -9,11 +13,8 @@ Switch keyboard layout to English (US)=none
 Switch to Next Keyboard Layout=none
 Toggle Touchpad=Touchpad Toggle
 display=Display; Meta+P
-{b4ec8ecf-0bea-4502-b245-3ad3cc8e1900}=Ctrl+Alt+T
+{b4ec8ecf-0bea-4502-b245-3ad3cc8e1900}=Meta+T
 {d03619b6-9b3c-48cc-9d9c-a2aadb485550}=none
-
-[kaccess][Global Shortcuts]
-Toggle Screen Reader On and Off=none
 
 [kmix][Global Shortcuts]
 decrease_microphone_volume=Microphone Volume Down
@@ -181,6 +182,14 @@ Window to Screen 7=none
 view_actual_size=none
 view_zoom_in=Meta+=
 view_zoom_out=Meta+-
+
+[mediacontrol][Global Shortcuts]
+mediavolumedown=none
+mediavolumeup=none
+nextmedia=Media Next
+playpausemedia=Media Play
+previousmedia=Media Previous
+stopmedia=Media Stop
 
 [org.kde.dolphin.desktop][Global Shortcuts]
 _launch=Meta+E

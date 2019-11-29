@@ -6,12 +6,17 @@
   become: yes
   tasks:
 
-  - name: install docker
-    apt:
-      name: docker.io
+  - name: ensure docker group exists
+    group:
+      name: docker
 
   - name: add my user to docker group
     user:
       name: davido
       groups: docker
       append: yes
+
+  - name: install docker
+    snap:
+      name: docker
+      channel: stable
