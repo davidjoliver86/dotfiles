@@ -1,6 +1,31 @@
 {
-    "telemetry.enableCrashReporter": false,
-    "telemetry.enableTelemetry": false,
+    "editor.fontFamily": "Monospace",
+    "editor.fontSize": 12.5,
+    "editor.formatOnSave": true,
+    "editor.lineHeight": 17,
+    "editor.minimap.enabled": false,
+    "editor.tokenColorCustomizations": {
+        "textMateRules": [
+            {
+                "scope": "keyword.control.flow.python",
+                "settings": {
+                    "fontStyle": ""
+                }
+            },
+            {
+                "scope": "keyword.control.import.python",
+                "settings": {
+                    "fontStyle": ""
+                }
+            },
+            {
+                "scope": "variable.parameter",
+                "settings": {
+                    "fontStyle": ""
+                }
+            }
+        ]
+    },
     "files.exclude": {
         "**/.git": true,
         "**/.svn": true,
@@ -21,18 +46,28 @@
         "**/.tox/**": true,
         "**/.tox": true
     },
-    "editor.fontSize": 12.5,
-    "editor.fontFamily": "Monospace",
-    "editor.formatOnSave": true,
-    "editor.lineHeight": 17,
-    "editor.minimap.enabled": false,
-    "typescript.surveys.enabled": false,
+    "telemetry.enableCrashReporter": false,
+    "telemetry.enableTelemetry": false,
+    "terraform.indexing": {
+        "enabled": false,
+        "liveIndexing": false,
+        "delay": 500,
+        "exclude": [
+            ".terraform/**/*",
+            "**/.terraform/**/*"
+        ]
+    },
+    "terraform.languageServer": {
+        "enabled": true,
+        "args": []
+    },
     "window.menuBarVisibility": "toggle",
     "window.title": "${activeEditorShort}${separator}${rootName}${separator}${appName}",
     "window.titleBarStyle": "native",
     "workbench.activityBar.visible": true,
+    "workbench.colorTheme": "One Dark Pro",
     "workbench.commandPalette.history": 0,
+    "workbench.iconTheme": "material-icon-theme",
     "workbench.settings.useSplitJSON": true,
     "workbench.startupEditor": "newUntitledFile",
-    "workbench.iconTheme": "material-icon-theme"
 }
