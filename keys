@@ -1,11 +1,10 @@
 [ActivityManager][Global Shortcuts]
-switch-to-activity-adb0f798-fd99-438a-a6ae-e90ade12d55f=none
-switch-to-activity-e5fb2c66-78ec-4d5e-b42c-9181c15f900a=none
+switch-to-activity-0285c7a9-3081-40dc-92a9-d32c4e3f0d5a=none
 
 [kaccess][Global Shortcuts]
 Toggle Screen Reader On and Off=none
 
-[khotkeys][Global Shortcuts]
+[kded5][Global Shortcuts]
 Disable Touchpad=Touchpad Off
 Enable Touchpad=Touchpad On
 Show System Activity=Ctrl+Esc
@@ -13,7 +12,7 @@ Switch keyboard layout to English (US)=none
 Switch to Next Keyboard Layout=none
 Toggle Touchpad=Touchpad Toggle
 display=Display; Meta+P
-{b4ec8ecf-0bea-4502-b245-3ad3cc8e1900}=Meta+T
+{4cb0eb82-a8b3-4973-b581-bd0ab116bc0b}=Ctrl+Alt+T
 {d03619b6-9b3c-48cc-9d9c-a2aadb485550}=none
 
 [kmix][Global Shortcuts]
@@ -26,7 +25,7 @@ mute=Volume Mute
 
 [krunner.desktop][Global Shortcuts]
 RunClipboard=Meta+Shift+Space
-_launch=Meta+Space; Alt+F2; Search
+_launch=Meta+Space; Alt+F2
 
 [ksmserver][Global Shortcuts]
 Halt Without Confirmation=Ctrl+Alt+Shift+PgDown
