@@ -25,12 +25,6 @@
         - git
         - papirus-icon-theme
         - google-chrome-stable
-
-  - name: install snap packages
-    snap:
-      name: "{{ packages }}"
-    vars:
-      packages:
         - htop
         - jq
 
