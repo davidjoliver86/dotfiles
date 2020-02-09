@@ -17,6 +17,5 @@
       append: yes
 
   - name: install docker
-    snap:
-      name: docker
-      channel: stable
+    apt:
+      name: docker.io

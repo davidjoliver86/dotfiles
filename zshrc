@@ -114,6 +114,10 @@ bindkey '^h' backward-delete-char
 bindkey '^r' history-incremental-search-backward
 
 # Powerlevel9k configuration
-POWERLEVEL9K_LEFT_PROMPT_ELEMENTS=(vi_mode dir vcs)
+POWERLEVEL9K_LEFT_PROMPT_ELEMENTS=(vi_mode dir virtualenv vcs)
 POWERLEVEL9K_VI_INSERT_MODE_STRING="INS"
 POWERLEVEL9K_VI_COMMAND_MODE_STRING="CMD"
+
+# Pyenv
+export PATH="$PATH:/home/davido/.pyenv/bin"
+eval "$(pyenv init -)"
