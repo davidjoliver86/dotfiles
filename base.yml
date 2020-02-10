@@ -27,7 +27,6 @@
         - google-chrome-stable
         - htop
         - jq
-        - zsh
         - curl
 
   - name: remove apport
@@ -40,47 +39,7 @@
     apt:
       autoremove: yes
 
-
-- name: base
-  hosts: 127.0.0.1
-  connection: local
-  become: yes
-  become_user: davido
-  tasks:
-
-  - name: install oh my zsh
-    git:
-      repo: https://github.com/ohmyzsh/ohmyzsh/
-      dest: /home/davido/.oh-my-zsh/
-      depth: 1
-
-  - name: install powerlevel9k
-    git:
-      repo: https://github.com/bhilburn/powerlevel9k.git
-      dest: /home/davido/.oh-my-zsh/custom/themes/powerlevel9k/
-      depth: 1
-
-  - name: install zsh settings
+  - name: copy dotfiles
     copy:
-      src: zshrc
-      dest: /home/davido/.zshrc
-
-  - name: install zsh fonts
-    copy:
-      src: fonts/
-      dest: /home/davido/.fonts/
-    notify:
-      - rebuild font cache
-
-  handlers:
-  - name: rebuild font cache
-    command: fc-cache -rf
-
-- name: base (root post-zsh)
-  hosts: 127.0.0.1
-  connection: local
-  become: yes
-  tasks:
-
-  - name: change my shell to zsh
-    command: usermod --shell /usr/bin/zsh davido
+      src: bash/
+      dest: /home/davido/
