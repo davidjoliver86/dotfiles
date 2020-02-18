@@ -1,5 +1,5 @@
 [ActivityManager][Global Shortcuts]
-switch-to-activity-0285c7a9-3081-40dc-92a9-d32c4e3f0d5a=none
+switch-to-activity-68411b0a-bf9c-433b-9b2e-5d939cc79977=none
 
 [kaccess][Global Shortcuts]
 Toggle Screen Reader On and Off=none
@@ -12,7 +12,7 @@ Switch keyboard layout to English (US)=none
 Switch to Next Keyboard Layout=none
 Toggle Touchpad=Touchpad Toggle
 display=Display; Meta+P
-{4cb0eb82-a8b3-4973-b581-bd0ab116bc0b}=Ctrl+Alt+T
+{42a8f058-a41a-49c3-8024-ec48bb3de18b}=Ctrl+Alt+T
 {d03619b6-9b3c-48cc-9d9c-a2aadb485550}=none
 
 [kmix][Global Shortcuts]
@@ -25,7 +25,7 @@ mute=Volume Mute
 
 [krunner.desktop][Global Shortcuts]
 RunClipboard=Meta+Shift+Space
-_launch=Meta+Space; Alt+F2
+_launch=Meta+Space; Alt+F2; Search
 
 [ksmserver][Global Shortcuts]
 Halt Without Confirmation=Ctrl+Alt+Shift+PgDown
@@ -49,7 +49,6 @@ MoveZoomDown=none
 MoveZoomLeft=none
 MoveZoomRight=none
 MoveZoomUp=none
-Remove Window From Group=none
 Setup Window Shortcut=none
 Show Desktop=Meta+Shift+D
 ShowDesktopGrid=Meta+D
@@ -100,8 +99,6 @@ Walk Through Desktop List=none
 Walk Through Desktop List (Reverse)=none
 Walk Through Desktops=none
 Walk Through Desktops (Reverse)=none
-Walk Through Window Tabs=none
-Walk Through Window Tabs (Reverse)=none
 Walk Through Windows=Alt+Tab
 Walk Through Windows (Reverse)=Alt+Shift+Backtab
 Walk Through Windows Alternative=none
@@ -193,6 +190,9 @@ stopmedia=Media Stop
 [org.kde.dolphin.desktop][Global Shortcuts]
 _launch=Meta+E
 
+[org.kde.plasma.emojier.desktop][Global Shortcuts]
+_launch=Meta+.
+
 [org.kde.spectacle.desktop][Global Shortcuts]
 ActiveWindowScreenShot=Meta+Print
 CurrentMonitorScreenShot=none
@@ -236,6 +236,9 @@ show dashboard=none
 show-barcode=none
 show-on-mouse-pos=none
 stop current activity=none
+switch to next activity=none
+switch to previous activity=none
+toggle do not disturb=none
 
 [wacomtablet][Global Shortcuts]
 Map to fullscreen=Meta+Ctrl+F
