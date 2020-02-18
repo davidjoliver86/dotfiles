@@ -28,6 +28,7 @@
         - htop
         - jq
         - curl
+        - fish
 
   - name: remove apport
     apt:
