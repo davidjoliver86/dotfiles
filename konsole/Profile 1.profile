@@ -3,6 +3,7 @@ ColorScheme=Breeze
 UseFontLineChararacters=true
 
 [General]
+Command=/usr/bin/fish
 Name=Profile 1
 Parent=FALLBACK/
 TerminalCenter=true

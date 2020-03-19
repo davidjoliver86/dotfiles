@@ -30,17 +30,16 @@
         - curl
         - fish
 
-  - name: remove apport
+  - name: remove apport and snapd
     apt:
-      name: apport
+      name: "{{ packages }}"
       state: absent
       purge: yes
+    vars:
+      packages:
+        - apport
+        - snapd
 
   - name: autoremove
     apt:
       autoremove: yes
-
-  - name: copy dotfiles
-    copy:
-      src: bash/
-      dest: /home/davido/
