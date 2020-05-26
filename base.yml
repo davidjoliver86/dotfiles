@@ -29,8 +29,10 @@
         - jq
         - curl
         - fish
+        - fonts-hack
+        - fonts-noto-color-emoji
 
-  - name: remove apport
+  - name: remove apport and switcheroo
     apt:
       name: "{{ packages }}"
       state: absent
@@ -38,7 +40,41 @@
     vars:
       packages:
         - apport
+        - switcheroo-control
 
   - name: autoremove
     apt:
       autoremove: yes
+
+
+- name: base
+  hosts: 127.0.0.1
+  connection: local
+  become: yes
+  become_user: davido
+  tasks:
+
+  - name: disable animations
+    dconf:
+      key: /org/gnome/desktop/interface/enable-animations
+      value: 'false'
+
+  - name: dock autohide
+    dconf:
+      key: /org/gnome/shell/extensions/dash-to-dock/dock-fixed
+      value: 'false'
+
+  - name: hide home icon
+    dconf:
+      key: /org/gnome/shell/extensions/desktop-icons/show-home
+      value: 'false'
+
+  - name: hide trash icon
+    dconf:
+      key: /org/gnome/shell/extensions/desktop-icons/show-trash
+      value: 'false'
+
+  - name: default monospace font
+    dconf:
+      key: /org/gnome/desktop/interface/monospace-font-name
+      value: "'Hack 11'"
