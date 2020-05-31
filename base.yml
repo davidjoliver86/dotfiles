@@ -8,7 +8,7 @@
 
   - name: google apt key
     apt_key:
-      keyserver: keyserver.ubuntu.com
+      keyserver: ha.pool.sks-keyservers.net
       id: D38B4796
 
   - name: google apt repo

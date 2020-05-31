@@ -1,6 +1,6 @@
 {
-    "editor.fontFamily": "Monospace",
-    "editor.fontSize": 12.5,
+    "editor.fontFamily": "Hack",
+    "editor.fontSize": 13,
     "editor.formatOnSave": true,
     "editor.lineHeight": 17,
     "editor.minimap.enabled": false,
