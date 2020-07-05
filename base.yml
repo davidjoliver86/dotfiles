@@ -30,7 +30,7 @@
         - curl
         - fish
 
-  - name: remove apport
+  - name: remove apport and snapd
     apt:
       name: "{{ packages }}"
       state: absent
@@ -38,6 +38,7 @@
     vars:
       packages:
         - apport
+        - snapd
 
   - name: autoremove
     apt:
