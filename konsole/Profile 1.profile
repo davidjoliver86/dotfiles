@@ -7,7 +7,7 @@ Command=/usr/bin/fish
 Name=Profile 1
 Parent=FALLBACK/
 TerminalCenter=true
-lerminalMargin=5
+TerminalMargin=5
 
 [Scrolling]
 HistorySize=10000
