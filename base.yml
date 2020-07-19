@@ -29,8 +29,9 @@
         - jq
         - curl
         - fish
+        - fonts-cascadia-code
 
-  - name: remove apport and snapd
+  - name: remove apport
     apt:
       name: "{{ packages }}"
       state: absent
@@ -38,7 +39,6 @@
     vars:
       packages:
         - apport
-        - snapd
 
   - name: autoremove
     apt:
