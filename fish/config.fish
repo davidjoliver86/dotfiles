@@ -5,7 +5,7 @@ fish_vi_key_bindings
 set -xg VIRTUAL_ENV_DISABLE_PROMPT 1
 
 # colors
-set theme_color_scheme base16-dark
+set theme_color_scheme zenburn
 set -U fish_color_normal normal
 set -U fish_color_command c397d8
 set -U fish_color_quote b9ca4a
@@ -34,6 +34,9 @@ set -U fish_pager_color_progress brwhite --background=cyan
 
 # editor
 set -xg EDITOR vim
+
+# timezone
+set -g theme_date_timezone America/Los_Angeles
 
 # fish greeting
 function fish_greeting

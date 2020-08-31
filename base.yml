@@ -6,16 +6,6 @@
   become: yes
   tasks:
 
-  - name: google apt key
-    apt_key:
-      keyserver: ha.pool.sks-keyservers.net
-      id: D38B4796
-
-  - name: google apt repo
-    apt_repository:
-      repo: deb [arch=amd64] http://dl.google.com/linux/chrome/deb/ stable main
-      filename: google-chrome
-
   - name: install apt packages
     apt:
       name: "{{ packages }}"
@@ -24,11 +14,11 @@
         - vim
         - git
         - papirus-icon-theme
-        - google-chrome-stable
         - htop
         - jq
         - curl
         - fish
+        - fonts-cascadia-code
 
   - name: remove apport and snapd
     apt:
