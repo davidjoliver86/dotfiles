@@ -1,18 +1,18 @@
 [ActivityManager][Global Shortcuts]
-switch-to-activity-68411b0a-bf9c-433b-9b2e-5d939cc79977=none
+switch-to-activity-0f893fa1-5155-4e91-be72-351caff01f96=none
 
 [kaccess][Global Shortcuts]
 Toggle Screen Reader On and Off=none
 
-[kded5][Global Shortcuts]
+[kcm_touchpad][Global Shortcuts]
 Disable Touchpad=Touchpad Off
 Enable Touchpad=Touchpad On
 Show System Activity=Ctrl+Esc
 Switch keyboard layout to English (US)=none
-Switch to Next Keyboard Layout=none
+Switch to Next Keyboard Layout=Ctrl+Alt+K
 Toggle Touchpad=Touchpad Toggle
 display=Display; Meta+P
-{42a8f058-a41a-49c3-8024-ec48bb3de18b}=Ctrl+Alt+T
+{52e6bed8-580e-4cf4-ad39-cb8398793015}=Ctrl+Alt+T
 {d03619b6-9b3c-48cc-9d9c-a2aadb485550}=none
 
 [kmix][Global Shortcuts]
