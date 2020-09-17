@@ -44,3 +44,16 @@
   - name: autoremove
     apt:
       autoremove: yes
+
+- name: base (davido)
+  hosts: 127.0.0.1
+  connection: local
+  become: yes
+  become_user: davido
+  tasks:
+  
+  - name: install fontconfig
+    copy:
+      src: fontconfig/
+      dest: /home/davido/.config/fontconfig/
+      mode: "0644"
