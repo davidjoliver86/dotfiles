@@ -1,0 +1,22 @@
+---
+
+- name: teams
+  hosts: 127.0.0.1
+  connection: local
+  become: yes
+  tasks:
+
+  - name: microsoft apt key
+    apt_key:
+      keyserver: ha.pool.sks-keyservers.net
+      id: EB3E94ADBE1229CF
+
+  - name: teams apt repo
+    apt_repository:
+      repo: deb [arch=amd64] https://packages.microsoft.com/repos/ms-teams stable main
+      filename: teams
+      mode: "0644"
+
+  - name: install teams
+    apt:
+      name: teams

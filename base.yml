@@ -30,6 +30,7 @@
         - curl
         - fish
         - google-chrome-stable
+        - network-manager-config-connectivity-ubuntu
 
   - name: remove apport and snapd
     apt:

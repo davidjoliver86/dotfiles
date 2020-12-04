@@ -1,0 +1,22 @@
+---
+
+- name: beekeeper
+  hosts: 127.0.0.1
+  connection: local
+  become: yes
+  tasks:
+
+  - name: bintray apt key
+    apt_key:
+      keyserver: ha.pool.sks-keyservers.net
+      id: 379CE192D401AB61
+
+  - name: bintray apt repo
+    apt_repository:
+      repo: deb https://dl.bintray.com/beekeeper-studio/releases disco main
+      filename: beekeeper-studio
+      mode: "0644"
+
+  - name: install beekeeper-studio
+    apt:
+      name: beekeeper-studio
