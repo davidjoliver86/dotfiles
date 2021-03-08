@@ -1,0 +1,17 @@
+---
+- name: microsoft apt key
+  apt_key:
+    keyserver: ha.pool.sks-keyservers.net
+    id: EB3E94ADBE1229CF
+
+- name: vscode apt repo
+  apt_repository:
+    repo: deb [arch=amd64] http://packages.microsoft.com/repos/vscode stable main
+    filename: vscode
+    mode: "0644"
+
+- name: install vscode
+  apt:
+    name: code
+
+

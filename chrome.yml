@@ -1,0 +1,15 @@
+---
+- name: google apt key
+  apt_key:
+    keyserver: ha.pool.sks-keyservers.net
+    id: D38B4796
+
+- name: google apt repo
+  apt_repository:
+    repo: deb [arch=amd64] http://dl.google.com/linux/chrome/deb/ stable main
+    filename: google-chrome
+    mode: "0644"
+
+- name: install chrome
+  apt:
+    name: google-chrome-stable

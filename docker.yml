@@ -1,21 +1,14 @@
 ---
+- name: ensure docker group exists
+  group:
+    name: docker
 
-- name: docker
-  hosts: 127.0.0.1
-  connection: local
-  become: yes
-  tasks:
+- name: add my user to docker group
+  user:
+    name: davido
+    groups: docker
+    append: yes
 
-  - name: ensure docker group exists
-    group:
-      name: docker
-
-  - name: add my user to docker group
-    user:
-      name: davido
-      groups: docker
-      append: yes
-
-  - name: install docker
-    apt:
-      name: docker.io
+- name: install docker
+  apt:
+    name: docker.io

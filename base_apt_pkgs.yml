@@ -1,0 +1,24 @@
+---
+- name: install apt packages
+  apt:
+    name: "{{ packages }}"
+  vars:
+    packages:
+      - vim
+      - git
+      - papirus-icon-theme
+      - htop
+      - jq
+      - curl
+      - fish
+      - network-manager-config-connectivity-ubuntu
+
+- name: remove apport
+  apt:
+    name: apport
+    state: absent
+    purge: yes
+
+- name: autoremove
+  apt:
+    autoremove: yes

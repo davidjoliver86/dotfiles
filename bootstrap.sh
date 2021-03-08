@@ -1,6 +1,6 @@
 #!/bin/bash
 apt update
-apt install -y python3-apt python3-venv git aptitude
+apt install -y python3-apt python3-venv git git-lfs aptitude
 /usr/bin/python3 -m venv /usr/lib/virtualenvs/ansible --system-site-packages
 
 /usr/lib/virtualenvs/ansible/bin/pip install ansible
