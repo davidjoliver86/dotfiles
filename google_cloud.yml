@@ -1,0 +1,41 @@
+---
+- name: install prereqs
+  apt:
+    name : "{{ prereqs }}"
+  vars:
+    prereqs:
+      - apt-transport-https
+      - ca-certificates
+      - gnupg
+
+- name: google cloud apt key
+  apt_key:
+    url: https://packages.cloud.google.com/apt/doc/apt-key.gpg
+    keyring: /usr/share/keyrings/cloud.google.gpg
+    state: present
+
+- name: google cloud apt repo
+  apt_repository:
+    repo: deb [signed-by=/usr/share/keyrings/cloud.google.gpg] https://packages.cloud.google.com/apt cloud-sdk main
+    filename: google-cloud
+    mode: "0644"
+
+- name: install google cloud sdk
+  apt:
+    name: "{{ pkgs }}"
+  vars:
+    pkgs:
+      - google-cloud-sdk
+      - kubectl
+      # uncomment these as necessary
+      # - google-cloud-sdk-app-engine-python
+      # - google-cloud-sdk-app-engine-python-extras
+      # - google-cloud-sdk-app-engine-java
+      # - google-cloud-sdk-app-engine-go
+      # - google-cloud-sdk-bigtable-emulator
+      # - google-cloud-sdk-cbt
+      # - google-cloud-sdk-cloud-build-local
+      # - google-cloud-sdk-datalab
+      # - google-cloud-sdk-datastore-emulator
+      # - google-cloud-sdk-firestore-emulator
+      # - google-cloud-sdk-pubsub-emulator

@@ -1,6 +1,6 @@
 ---
 - name: make .ssh folder
-  ansible.builtin.file:
+  file:
     path: ~/.ssh
     state: directory
 

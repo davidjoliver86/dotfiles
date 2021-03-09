@@ -1,0 +1,28 @@
+---
+- name: clone tfenv
+  git:
+    repo: https://github.com/tfutils/tfenv.git
+    dest: /home/davido/.tfenv
+
+- name: create ~/.bin
+  file:
+    path: ~/.bin
+    state: directory
+
+- name: symlink tfenv to ~/.bin/
+  file:
+    src: ~/.tfenv/bin/tfenv
+    dest: ~/.bin/tfenv
+    state: link
+
+- name: symlink terraform to ~/.bin/
+  file:
+    src: ~/.tfenv/bin/terraform
+    dest: ~/.bin/terraform
+    state: link
+
+- name: setup 0.12.20 as default terraform
+  copy:
+    dest: ~/.terraform-version
+    content: "0.12.20\n"
+    mode: "0644"

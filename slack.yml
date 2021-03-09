@@ -1,22 +1,15 @@
 ---
+- name: slack apt key
+  apt_key:
+    keyserver: ha.pool.sks-keyservers.net
+    id: D938EC0D038651BD
 
-- name: slack
-  hosts: 127.0.0.1
-  connection: local
-  become: yes
-  tasks:
+- name: slack apt repo
+  apt_repository:
+    repo: deb https://packagecloud.io/slacktechnologies/slack/debian/ jessie main
+    filename: slack
+    mode: "0644"
 
-  - name: slack apt key
-    apt_key:
-      keyserver: ha.pool.sks-keyservers.net
-      id: D938EC0D038651BD
-
-  - name: slack apt repo
-    apt_repository:
-      repo: deb https://packagecloud.io/slacktechnologies/slack/debian/ jessie main
-      filename: slack
-      mode: "0644"
-
-  - name: install slack
-    apt:
-      name: slack-desktop
+- name: install slack
+  apt:
+    name: slack-desktop

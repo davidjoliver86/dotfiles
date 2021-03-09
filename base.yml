@@ -9,6 +9,8 @@
     - include_tasks: docker.yml
     - include_tasks: vscode_pkg.yml
     - include_tasks: pyenv_pkg.yml
+    - include_tasks: slack.yml
+    - include_tasks: awscli.yml
 
 - name: base (davido)
   hosts: 127.0.0.1
