@@ -5,7 +5,7 @@ fish_vi_key_bindings
 set -xg VIRTUAL_ENV_DISABLE_PROMPT 1
 
 # colors
-set theme_color_scheme zenburn
+set theme_color_scheme base16
 set -U fish_color_normal normal
 set -U fish_color_command c397d8
 set -U fish_color_quote b9ca4a
