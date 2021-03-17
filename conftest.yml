@@ -1,0 +1,4 @@
+---
+- name: install conftest
+  apt:
+    deb: https://github.com/open-policy-agent/conftest/releases/download/v0.23.0/conftest_0.23.0_linux_amd64.deb

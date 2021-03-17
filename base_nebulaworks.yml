@@ -7,6 +7,7 @@
     - include_tasks: google_cloud.yml
     - include_tasks: virtualbox.yml
     - include_tasks: minikube.yml
+    - include_tasks: conftest.yml
 
 - name: base (davido)
   hosts: 127.0.0.1
