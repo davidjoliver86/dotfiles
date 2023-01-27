@@ -1,0 +1,5 @@
+---
+  - name: copy fish config
+    copy:
+      src: fish/
+      dest: ~/.config/fish/

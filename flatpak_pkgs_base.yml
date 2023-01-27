@@ -1,0 +1,31 @@
+---
+  - name: flathub repo
+    community.general.flatpak_remote:
+      name: flathub
+      state: present
+      flatpakrepo_url: https://dl.flathub.org/repo/flathub.flatpakrepo
+      method: user
+
+  - name: install slack flatpak
+    community.general.flatpak:
+      name: com.slack.Slack
+      state: present
+      method: user
+
+  - name: install zoom flatpak
+    community.general.flatpak:
+      name: us.zoom.Zoom
+      state: present
+      method: user
+
+  - name: install joplin flatpak
+    community.general.flatpak:
+      name: net.cozic.joplin_desktop
+      state: present
+      method: user
+
+  - name: install gimp flatpak
+    community.general.flatpak:
+      name: org.gimp.GIMP
+      state: present
+      method: user

@@ -1,0 +1,40 @@
+---
+- name: docker repo
+  yum_repository:
+    name: docker
+    baseurl: https://download.docker.com/linux/fedora/$releasever/$basearch/stable
+    description: Docker CE Stable
+    enabled: yes
+    gpgcheck: yes
+    gpgkey: https://download.docker.com/linux/fedora/gpg
+
+- name: install packages
+  dnf:
+    name: "{{ packages }}"
+  vars:
+    packages:
+      - docker-ce
+      - docker-ce-cli
+      - containerd.io
+
+- name: ensure docker group exists
+  group:
+    name: docker
+
+- name: add my user to docker group
+  user:
+    name: davido
+    groups: docker
+    append: yes
+
+- name: start docker service
+  ansible.builtin.service:
+    name: docker
+    enabled: yes
+    state: started
+
+- name: start containerd service
+  ansible.builtin.service:
+    name: containerd
+    enabled: yes
+    state: started

@@ -1,0 +1,16 @@
+---
+- name: checkout tfenv repo
+  ansible.builtin.git:
+    repo: https://github.com/tfutils/tfenv
+    dest: ~/.tfenv
+    update: no
+
+- name: ensure ~/.local/bin exists
+  ansible.builtin.file:
+    path: ~/.local/bin
+    state: directory
+
+- name: create symlinks
+  shell:
+    cmd: ln -s ~/.tfenv/bin/* ~/.local/bin/
+    creates: ~/.local/bin/tfenv

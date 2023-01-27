@@ -1,0 +1,11 @@
+---
+- name: make .ssh folder
+  ansible.builtin.file:
+    path: ~/.ssh
+    state: directory
+
+- name: create keypair
+  community.crypto.openssh_keypair:
+    path: ~/.ssh/id_ed25519
+    type: ed25519
+    comment: "{{ ansible_facts['nodename'] }}"
